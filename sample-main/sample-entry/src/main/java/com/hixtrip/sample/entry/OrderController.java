@@ -24,6 +24,7 @@ import java.util.Map;
  */
 @Slf4j
 @RestController
+@CrossOrigin(origins = "*")
 public class OrderController {
 
     @Value("${alipay.alipay_public_key}")

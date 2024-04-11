@@ -13,6 +13,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
 import javax.annotation.Resource;
+import java.math.BigDecimal;
+
 @Repository
 public class OrderRepositoryImpl implements OrderRepository {
 
@@ -43,12 +45,31 @@ public class OrderRepositoryImpl implements OrderRepository {
 
     @Override
     public Sample queryProductByProductId(String productId) {
-        return null;
+        // 实际场景要从从数据库查询
+        return Sample.builder()
+                .id(Long.valueOf(productId))
+                .name("小米VIP-SUV")
+                .desc("666")
+                .price(new BigDecimal("21500"))
+                .build();
     }
 
     @Override
     public void doSaveOrder(CreateOrderAggregate orderAggregate) {
+        String userId = orderAggregate.getUserId();
+        SampleCart sampleCart = orderAggregate.getSampleCart();
+        Order orderEntity = orderAggregate.getOrderEntity();
 
+        PayOrderDo order = new PayOrderDo();
+        order.setUserId(userId);
+        order.setSkuId(sampleCart.getSkuId());
+        order.setProductName(sampleCart.getSkuId());
+        order.setOrderId(orderEntity.getId());
+        order.setOrderTime(orderEntity.getCreateTime());
+        order.setTotalAmount(BigDecimal.valueOf(sampleCart.getAmount()));
+        order.setStatus(orderEntity.getPayStatus().getCode());
+
+        payOrderMapper.insert(order);
     }
 
     @Override
@@ -58,6 +79,9 @@ public class OrderRepositoryImpl implements OrderRepository {
 
     @Override
     public void changeOrderPaySuccess(String orderId) {
-
+        PayOrderDo order = new PayOrderDo();
+        order.setOrderId(orderId);
+        order.setStatus(OrderStatusVO.PAY_SUCCESS.getCode());
+        payOrderMapper.changeOrderPaySuccess(order);
     }
 }

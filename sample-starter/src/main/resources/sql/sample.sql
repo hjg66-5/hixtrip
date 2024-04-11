@@ -16,5 +16,5 @@ CREATE TABLE `pay_order` (
                              `update_time` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '更新时间',
                              PRIMARY KEY (`id`),
                              UNIQUE KEY `uq_order_id` (`order_id`),
-                             KEY `idx_user_id_product_id` (`user_id`,`product_id`)
+                             KEY `idx_user_id_product_id` (`user_id`,`sku_id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
