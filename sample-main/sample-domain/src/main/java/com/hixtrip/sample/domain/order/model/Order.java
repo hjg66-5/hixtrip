@@ -1,5 +1,6 @@
 package com.hixtrip.sample.domain.order.model;
 
+import com.hixtrip.sample.domain.valobj.OrderStatusVO;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
@@ -7,7 +8,7 @@ import lombok.NoArgsConstructor;
 import lombok.experimental.SuperBuilder;
 
 import java.math.BigDecimal;
-import java.time.LocalDateTime;
+import java.util.Date;
 
 /**
  * 订单表
@@ -35,6 +36,11 @@ public class Order {
      * SkuId
      */
     private String skuId;
+    
+    /**
+     * productName
+     */
+    private String productName;
 
     /**
      * 购买数量
@@ -49,12 +55,12 @@ public class Order {
     /**
      * 购买时间
      */
-    private LocalDateTime payTime;
+    private Date payTime;
 
     /**
      * 支付状态
      */
-    private String payStatus;
+    private OrderStatusVO payStatus;
 
     /**
      * 删除标志（0代表存在 1代表删除）
@@ -69,7 +75,7 @@ public class Order {
     /**
      * 创建时间
      */
-    private LocalDateTime createTime;
+    private Date createTime;
 
     /**
      * 修改人
@@ -79,5 +85,8 @@ public class Order {
     /**
      * 修改时间
      */
-    private LocalDateTime updateTime;
+    private Date updateTime;
+
+    /** 支付信息 */
+    private String payUrl;
 }

@@ -5,7 +5,7 @@
     <resultMap id="dataMap" type="com.hixtrip.sample.infra.db.dataobject.PayOrderDo">
         <id column="id" property="id"/>
         <result column="user_id" property="userId"/>
-        <result column="product_id" property="productId"/>
+        <result column="sku_id" property="skuId"/>
         <result column="product_name" property="productName"/>
         <result column="order_id" property="orderId"/>
         <result column="order_time" property="orderTime"/>
@@ -18,9 +18,9 @@
     </resultMap>
 
     <insert id="insert" parameterType="com.hixtrip.sample.infra.db.dataobject.PayOrderDo">
-        insert into pay_order(user_id, product_id, product_name, order_id, order_time,
+        insert into pay_order(user_id, sku_id, product_name, order_id, order_time,
         total_amount, status, create_time, update_time)
-        values(#{userId}, #{productId}, #{productName}, #{orderId}, #{orderTime},
+        values(#{userId}, #{skuId}, #{productName}, #{orderId}, #{orderTime},
         #{totalAmount}, #{status}, now(), now())
     </insert>
 
@@ -35,9 +35,9 @@
     </update>
 
     <select id="queryUnPayOrder" parameterType="com.hixtrip.sample.infra.db.dataobject.PayOrderDo" resultMap="dataMap">
-        select product_id, product_name, order_id, order_time, total_amount, status, pay_url
+        select sku_id, product_name, order_id, order_time, total_amount, status, pay_url
         from pay_order
-        where user_id = #{userId} and product_id = #{productId}
+        where user_id = #{userId} and sku_id = #{productId}
         order by id desc
         limit 1
     </select>

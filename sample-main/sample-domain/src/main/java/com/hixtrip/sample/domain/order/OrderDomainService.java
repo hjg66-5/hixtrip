@@ -1,7 +1,7 @@
 package com.hixtrip.sample.domain.order;
 
-import com.hixtrip.sample.domain.order.model.Order;
 import com.hixtrip.sample.domain.pay.model.CommandPay;
+import com.hixtrip.sample.domain.sample.model.SampleCart;
 import org.springframework.stereotype.Component;
 
 /**
@@ -9,15 +9,18 @@ import org.springframework.stereotype.Component;
  * todo 只需要实现创建订单即可
  */
 @Component
-public class OrderDomainService {
+public class OrderDomainService implements IOrderDomainService{
 
 
     /**
      * todo 需要实现
      * 创建待付款订单
+     *
+     * @return
      */
-    public void createOrder(Order order) {
+    public CommandPay createOrder(SampleCart sampleCart) {
         //需要你在infra实现, 自行定义出入参
+        return null;
     }
 
     /**
