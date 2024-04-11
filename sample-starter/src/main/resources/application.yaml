@@ -1,3 +1,12 @@
+server:
+  port: 8091
+  tomcat:
+    max-connections: 20
+    threads:
+      max: 20
+      min-spare: 10
+    accept-count: 10
+
 spring:
   application:
     name: sample-console
@@ -5,9 +14,9 @@ spring:
 
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/interview?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&useSSL=false&zeroDateTimeBehavior=convertToNull&serverTimezone=Asia/Shanghai
+    url: jdbc:mysql://localhost:13306/interview?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&useSSL=false&zeroDateTimeBehavior=convertToNull&serverTimezone=Asia/Shanghai
     username: root
-    password: 1111
+    password: 123456
 
   data:
     redis:
@@ -22,3 +31,20 @@ mybatis-plus:
   global-config:
     db-config:
       id-type: ASSIGN_ID
+
+# 支付宝支付 - 沙箱 https://opendocs.alipay.com/common/02kkv7
+alipay:
+  enabled: true
+  app_id: 9021000136610214
+  merchant_private_key: MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCNNJjnv9XQ2sF0+ee0HYbgwbv+R9yuydO8bp7jJI1glwcJk0f2KkDuxONnA2811TKQGIeW/5M1zTLFVrC488hyTOcjWeP2QJN+B8iucDhw7EaihB+hDrHVKnNRgax3ARALsHgrdeojRcELMJjzJt3LLEL/86SPIxF7Q+6rWQdd798fZHCO8lLWfH1vOg9/l+De8QcVZJKzD+GAs9ba4QqL4Y3a8Lczj+FAnlDGR9iEQNxLXXGwzOSnz9n/omRfF/RfjuV4/N5u4+BEGc1TD0XZKDNvCwj0DgLka/25Km0Lt/Jygl7cHn7VSWASExyi5bz34Y4PfbrujHPrnnuBpV5xAgMBAAECggEAOcXxYbCNjPxT9sZg1MLX8pGRl0JTunf9V7Vy8MB9z607ReGqqb8z/f00hWtUTxRBsc83esJqurKQOUl02Nd1hb6NO1uF97UII6KPqz9i+GDTrZ6dSko23F6X/BswMyiOJho3sKB4AaKCj0985M9cI8qiRxKqm53fgy2SMy0j5HyqjCteoTFsxD+mGb6e6ESHbxGNtKiApn6OjgKme35i89accRRxF8IXLcKbaI9ET4Tf7MqeygkSBHGeNxHUmf3TTDTZ42EIhzcut9eVTB1mfBGmzAq9+4MM4JMKc2nAvSFV9G4ArQqZVfRFaKwktwuC9Opx8Fm2hD0teWEv/zfrgQKBgQDDXWBwU76Zcor5sLUmW0HsTav4+4QpyOnEyRvfmflCN7vCmi3K+/KMP/sXM6FPgKsy+AWtgGzkbhdhSEXHiwTXXK2j1saoCPkydWsx1GqFVcq08bxVv296YvlM+sbM+XV91mjrbQKQCC8NnpfScgGQOPsYSdOPvCjMlFhnFKdbmQKBgQC5CARRYKVWPFtGlx7OYc5s56TTYiqZO7povv2jrO8No7zZD64bqkjs5pNdhEQTXYIm85QlreJvV00sWcxbVgI4sq57sqSxtUHTrlopHxtrKnDZABcO88O03aMVznvftHKVF30ObufvVJ7JZp29/OAvG/3cm4bHQbS7TvYZT2CgmQKBgQCRrLsQhyGEgiim7uDk7P9HGNO3ILT4A1xs5BjoroNyoORcw2KKDTxa4Ap2zoTmJ2eA5fg126FW49CDNcTyefLuM6k2lhwjiC1pNqzrxxx2t/Yi3m408j5J4CtM/2Hlzc2SO6KYifxzMecEHNHQljocNKDnB4W9k+xIQAV7N6djYQKBgHgnipZFylgrraIzdF/VB7WU32Ydc0g6jxyCGjd1j28uCu5xzkBM3jpoqP2rbIGe0Wv19RhayJZA/O52CcyuF5c2ATR2l5iG+g46RHY7qxR2ZP2ln1OoXEhRPRxmD+7/QQEsVZtPzfGO4+Ypavn7AqHU7Y+at3UhZ/nSluFsuHTRAoGBAK9nFq/JYeZmSdP+UMhxvcxjrSc4cMOB7Ku3vM2CG/03uC3VY3nCsFlYeQo71X6LDkXKISfiSPctjF0EajU2ujfZxKMgjPh4csQHZA6YdmfEjTIrluVHadK7wMUzRwI1ft+IUd2BzfH+urroLol8E+HTTl27RMYKyuBzHGd7N5sd
+  alipay_public_key: MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAoTycd1VVXtCw79V8B3eYlmsZRsHng9S14DpmLgdI0w1Z+06UAKsQ5S7eU4nZ9MZCiuwGQw+yoIjrAfwjGa9IB4uE/EeKmRYRUeKLc29OClv6fbsMUOAC25XG6vG+E/P7sjpE8TbtnGHEvsXyiwk6ZuuXG9lKT0S/WSS3Sxe6JLJs9WGWAH7HY6wlyc1HYQqCwrJSyoh7O9cQf5DVo5ct8iViwVuW+cyPT8uoYOsr6b5QeAvmVOfieEhnGYNin34gaB6akCnqspcm2Zf+4bKlEx1npxyc1TGPR9TiKAE9iVpMN/dXvvbD5Dbm4BTD0oulNZaQVuscNQ85wOl2UuMDTQIDAQAB
+  notify_url: http://p9djjf.natappfree.cc/api/v1/alipay/pay_notify
+  return_url: https://gaga.plus
+  gatewayUrl: https://openapi-sandbox.dl.alipaydev.com/gateway.do
+
+
+# 日志
+logging:
+  level:
+    root: info
+  config: classpath:logback-spring.xml
