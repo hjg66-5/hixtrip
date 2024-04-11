@@ -1,5 +1,5 @@
 server:
-  port: 8091
+  port: 19095
   tomcat:
     max-connections: 20
     threads:
@@ -36,12 +36,34 @@ mybatis-plus:
 alipay:
   enabled: true
   app_id: 9021000136610214
-  merchant_private_key: MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCNNJjnv9XQ2sF0+ee0HYbgwbv+R9yuydO8bp7jJI1glwcJk0f2KkDuxONnA2811TKQGIeW/5M1zTLFVrC488hyTOcjWeP2QJN+B8iucDhw7EaihB+hDrHVKnNRgax3ARALsHgrdeojRcELMJjzJt3LLEL/86SPIxF7Q+6rWQdd798fZHCO8lLWfH1vOg9/l+De8QcVZJKzD+GAs9ba4QqL4Y3a8Lczj+FAnlDGR9iEQNxLXXGwzOSnz9n/omRfF/RfjuV4/N5u4+BEGc1TD0XZKDNvCwj0DgLka/25Km0Lt/Jygl7cHn7VSWASExyi5bz34Y4PfbrujHPrnnuBpV5xAgMBAAECggEAOcXxYbCNjPxT9sZg1MLX8pGRl0JTunf9V7Vy8MB9z607ReGqqb8z/f00hWtUTxRBsc83esJqurKQOUl02Nd1hb6NO1uF97UII6KPqz9i+GDTrZ6dSko23F6X/BswMyiOJho3sKB4AaKCj0985M9cI8qiRxKqm53fgy2SMy0j5HyqjCteoTFsxD+mGb6e6ESHbxGNtKiApn6OjgKme35i89accRRxF8IXLcKbaI9ET4Tf7MqeygkSBHGeNxHUmf3TTDTZ42EIhzcut9eVTB1mfBGmzAq9+4MM4JMKc2nAvSFV9G4ArQqZVfRFaKwktwuC9Opx8Fm2hD0teWEv/zfrgQKBgQDDXWBwU76Zcor5sLUmW0HsTav4+4QpyOnEyRvfmflCN7vCmi3K+/KMP/sXM6FPgKsy+AWtgGzkbhdhSEXHiwTXXK2j1saoCPkydWsx1GqFVcq08bxVv296YvlM+sbM+XV91mjrbQKQCC8NnpfScgGQOPsYSdOPvCjMlFhnFKdbmQKBgQC5CARRYKVWPFtGlx7OYc5s56TTYiqZO7povv2jrO8No7zZD64bqkjs5pNdhEQTXYIm85QlreJvV00sWcxbVgI4sq57sqSxtUHTrlopHxtrKnDZABcO88O03aMVznvftHKVF30ObufvVJ7JZp29/OAvG/3cm4bHQbS7TvYZT2CgmQKBgQCRrLsQhyGEgiim7uDk7P9HGNO3ILT4A1xs5BjoroNyoORcw2KKDTxa4Ap2zoTmJ2eA5fg126FW49CDNcTyefLuM6k2lhwjiC1pNqzrxxx2t/Yi3m408j5J4CtM/2Hlzc2SO6KYifxzMecEHNHQljocNKDnB4W9k+xIQAV7N6djYQKBgHgnipZFylgrraIzdF/VB7WU32Ydc0g6jxyCGjd1j28uCu5xzkBM3jpoqP2rbIGe0Wv19RhayJZA/O52CcyuF5c2ATR2l5iG+g46RHY7qxR2ZP2ln1OoXEhRPRxmD+7/QQEsVZtPzfGO4+Ypavn7AqHU7Y+at3UhZ/nSluFsuHTRAoGBAK9nFq/JYeZmSdP+UMhxvcxjrSc4cMOB7Ku3vM2CG/03uC3VY3nCsFlYeQo71X6LDkXKISfiSPctjF0EajU2ujfZxKMgjPh4csQHZA6YdmfEjTIrluVHadK7wMUzRwI1ft+IUd2BzfH+urroLol8E+HTTl27RMYKyuBzHGd7N5sd
+  merchant_private_key: MIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCkdWTTQWYOtZ5URuZrZ3+y6D+lfF7jrci9IMS4+Ol7ern46tuBuVKJP914O15agsucM52yL2TJ4DelKs/1m4tNbzSowzXHOdjaLVwr+jeGL4EBF0ziK10ZC7E0l+55t66wOr3//O3tQJ3u5dt7SNbGtonUTIGArbUkvkf2ov1hbFBX+6Spg/4p3H0ZJm8+6OaZksiniuqZAlJCbFjjbgiUnN7GnHsTv+Yh/r++8h1Y9TV2uIhiBBXd8z1wYE0m1OhSAWJel3OBqLAbPdVykI/nKkRXVzbM5vIgtzScUMrsNfhDjqTneIYJJK1Pg4daDCyvZ7xWCWwGGnNSvx/8JSmRAgMBAAECggEAA4XwTwZLpW0Go0+RiCODfNW051quvbnvXv3guQW8GsUaTtbZNQI/Xmlb2UOMVewPaJ1Cd5rEUf7XslYkdmKKrXIAcs0bzdTTbHkkTFzj66AA54EUSJQdPngdp77JgRoKSAQ6Jc3JWxfTSlbqSM3arA8lDMNG0vblto/NAt+jBf8/M3qXtLUDVOPh+r8morLL8AulYASwS2IIRirPHJXL1i1L/4t7AQ2GmzyusxpGMzgRtNV2GTO6oAXhtx/iMQtEkM/g8vSOem8kh6PJ8xyXES+Fho8J0B3sKh5GVq4uTffYVQlELaPn8QSiqauiCNaEcITJeNsPgeJCVCFE6/OxMQKBgQDixqGNccu4Z/6LGbHkBMfnSBaXrQ53EhF1ljF9C+B09DS3SGk9HWHX6lpwhUWlgJMmydzTa9/Q9PHwEw2E8JwCvV52ALGu3CjJFmblUpQunmsIYwpOJvdFvK1cniJcMvUJOSvbdgLnf0p6iaXpr2seRzWy6damuMflL78RQA800wKBgQC5pue7cqpoazfcXhBfIRHuBnBDRfYx338lkiQEEQF3L+GO6AzZ8eUL4+WY7aTv6jPwm4F2e0dPKo2/sC1Yc/NQx5wJwNBbE1XKES4rZv+hJIl/Z28exhNcJ8mT/Vt46ETj8JE+VnVUtMdLJnMvcxkqTEG4KnXN4clmUQWzWA25iwKBgApQqKaLZ43SxSREne/WO9WMVOK/T2ohG0Qy+btLYAFR3lf75jWOcZXlpgl6NmnJyGe6RN4lCQAzNBIMe8/xNdd2D6bkbzCZ+Qz0hOencvAP6qRuBNj7MsIsS+JrmvqAot6xiAoqewVWp+ec/Tv8661r5chmlInu28DUBCfftxFbAoGAIy+b+e3omDPB+ZUmWzFEWa2Et2taFue6DF/fTZn/ghxkDpayYNg0xgUibdKUkRf9UhvW9KK2yC1TgkIcxgfr1KKQU1Tk6G4Is2yAKJ+z0VHAcZIkAFwgLTYpQVAidw7mh6D/liYCxNQidX7LE/Inkdm0FviNLUEez7KJdw04RLMCgYBDqAJDn356s9++/tbqpt2dGzzMhxgX6xttJiNcUkez28i9QHc5/nL+k3KJdHjRAXubQO1rDkcYjm6LWqZ0bXjxZg+I/jmyMXCTViPUDXxxCBa9fSJtPZp6ajV86A67X/ENHSVhwtEzT2pz1uMEQoTqQfOcT3L4sM8a7YzgS6hBvg==
   alipay_public_key: MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAoTycd1VVXtCw79V8B3eYlmsZRsHng9S14DpmLgdI0w1Z+06UAKsQ5S7eU4nZ9MZCiuwGQw+yoIjrAfwjGa9IB4uE/EeKmRYRUeKLc29OClv6fbsMUOAC25XG6vG+E/P7sjpE8TbtnGHEvsXyiwk6ZuuXG9lKT0S/WSS3Sxe6JLJs9WGWAH7HY6wlyc1HYQqCwrJSyoh7O9cQf5DVo5ct8iViwVuW+cyPT8uoYOsr6b5QeAvmVOfieEhnGYNin34gaB6akCnqspcm2Zf+4bKlEx1npxyc1TGPR9TiKAE9iVpMN/dXvvbD5Dbm4BTD0oulNZaQVuscNQ85wOl2UuMDTQIDAQAB
-  notify_url: http://p9djjf.natappfree.cc/api/v1/alipay/pay_notify
-  return_url: https://gaga.plus
+  notify_url: http://itchyz.natappfree.cc/command/order/pay/callback
+  return_url: https://www.baidu.com
   gatewayUrl: https://openapi-sandbox.dl.alipaydev.com/gateway.do
 
+# RocketMQ 配置
+rocketmq:
+  name-server: 127.0.0.1:9876
+  consumer:
+    group: sample-ded-group
+    # 一次拉取消息最大值，注意是拉取消息的最大值而非消费最大值
+    pull-batch-size: 10
+  producer:
+    # 发送同一类消息的设置为同一个group，保证唯一
+    group: xfg-group
+    # 发送消息超时时间，默认3000
+    sendMessageTimeout: 10000
+    # 发送消息失败重试次数，默认2
+    retryTimesWhenSendFailed: 2
+    # 异步消息重试此处，默认2
+    retryTimesWhenSendAsyncFailed: 2
+    # 消息最大长度，默认1024 * 1024 * 4(默认4M)
+    maxMessageSize: 4096
+    # 压缩消息阈值，默认4k(1024 * 4)
+    compressMessageBodyThreshold: 4096
+    # 是否在内部发送失败时重试另一个broker，默认false
+    retryNextServer: false
 
 # 日志
 logging:
