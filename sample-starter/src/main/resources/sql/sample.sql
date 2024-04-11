@@ -4,7 +4,7 @@ DROP TABLE IF EXISTS `pay_order`;
 CREATE TABLE `pay_order` (
                              `id` int unsigned NOT NULL AUTO_INCREMENT COMMENT '自增ID',
                              `user_id` varchar(32) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL COMMENT '用户ID',
-                             `product_id` varchar(16) NOT NULL COMMENT '商品ID',
+                             `sku_id` varchar(16) NOT NULL COMMENT '商品ID',
                              `product_name` varchar(64) NOT NULL COMMENT '商品名称',
                              `order_id` varchar(16) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL COMMENT '订单ID',
                              `order_time` datetime NOT NULL COMMENT '下单时间',

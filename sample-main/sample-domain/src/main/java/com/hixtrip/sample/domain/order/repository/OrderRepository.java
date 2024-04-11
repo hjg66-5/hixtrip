@@ -1,5 +1,6 @@
 package com.hixtrip.sample.domain.order.repository;
 
+import com.hixtrip.sample.domain.aggregate.CreateOrderAggregate;
 import com.hixtrip.sample.domain.order.model.Order;
 import com.hixtrip.sample.domain.pay.model.CommandPay;
 import com.hixtrip.sample.domain.sample.model.Sample;
@@ -26,6 +27,12 @@ public interface OrderRepository {
      */
     Sample queryProductByProductId(String productId);
 
+    /**
+     * 保存订单对象
+     *
+     * @param orderAggregate 订单聚合
+     */
+    void doSaveOrder(CreateOrderAggregate orderAggregate);
 
     /**
      * 更新订单支付信息

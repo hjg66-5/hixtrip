@@ -1,5 +1,6 @@
 package com.hixtrip.sample.infra;
 
+import com.hixtrip.sample.domain.aggregate.CreateOrderAggregate;
 import com.hixtrip.sample.domain.order.model.Order;
 import com.hixtrip.sample.domain.order.repository.OrderRepository;
 import com.hixtrip.sample.domain.pay.model.CommandPay;
@@ -8,12 +9,14 @@ import com.hixtrip.sample.domain.sample.model.SampleCart;
 import com.hixtrip.sample.domain.valobj.OrderStatusVO;
 import com.hixtrip.sample.infra.db.dataobject.PayOrderDo;
 import com.hixtrip.sample.infra.db.mapper.PayOrderMapper;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
 
 import javax.annotation.Resource;
-
+@Repository
 public class OrderRepositoryImpl implements OrderRepository {
 
-    @Resource
+    @Autowired
     private PayOrderMapper payOrderMapper;
 
 
@@ -41,6 +44,11 @@ public class OrderRepositoryImpl implements OrderRepository {
     @Override
     public Sample queryProductByProductId(String productId) {
         return null;
+    }
+
+    @Override
+    public void doSaveOrder(CreateOrderAggregate orderAggregate) {
+
     }
 
     @Override

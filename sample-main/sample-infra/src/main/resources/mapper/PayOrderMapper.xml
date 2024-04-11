@@ -37,7 +37,7 @@
     <select id="queryUnPayOrder" parameterType="com.hixtrip.sample.infra.db.dataobject.PayOrderDo" resultMap="dataMap">
         select sku_id, product_name, order_id, order_time, total_amount, status, pay_url
         from pay_order
-        where user_id = #{userId} and sku_id = #{productId}
+        where user_id = #{userId} and sku_id = #{skuId}
         order by id desc
         limit 1
     </select>

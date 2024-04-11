@@ -1,5 +1,6 @@
 package com.hixtrip.sample.domain.pay.model;
 
+import com.hixtrip.sample.domain.valobj.OrderStatusVO;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -31,7 +32,7 @@ public class CommandPay {
     /**
      * 订单状态 0-创建完成、1-等待支付、2-支付成功、3-交易完成、4-订单关单
      */
-    private String payStatus;
+    private OrderStatusVO payStatus;
 
 
     @Override
@@ -40,7 +41,7 @@ public class CommandPay {
                 "userId='" + userId + '\'' +
                 ", payUrl='" + payUrl + '\'' +
                 ", orderId='" + orderId + '\'' +
-                ", payStatus='" + payStatus + '\'' +
+                ", payStatus=" + payStatus +
                 '}';
     }
 }
