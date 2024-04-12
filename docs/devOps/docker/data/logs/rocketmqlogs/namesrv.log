@@ -22701,3 +22701,15 @@ io.netty.channel.StacklessClosedChannelException: null
 2024-04-12 15:21:42 INFO NSScanScheduledThread - start scanNotActiveBroker
 2024-04-12 15:21:47 INFO NSScanScheduledThread - start scanNotActiveBroker
 2024-04-12 15:21:52 INFO NSScanScheduledThread - start scanNotActiveBroker
+2024-04-12 15:21:57 INFO NSScanScheduledThread - start scanNotActiveBroker
+2024-04-12 15:22:02 INFO NSScanScheduledThread - start scanNotActiveBroker
+2024-04-12 15:22:07 INFO NSScanScheduledThread - start scanNotActiveBroker
+2024-04-12 15:22:12 INFO NSScanScheduledThread - start scanNotActiveBroker
+2024-04-12 15:22:17 INFO NSScanScheduledThread - start scanNotActiveBroker
+2024-04-12 15:22:22 INFO NSScanScheduledThread - start scanNotActiveBroker
+2024-04-12 15:22:27 INFO NSScanScheduledThread - start scanNotActiveBroker
+2024-04-12 15:22:30 WARN RemotingExecutorThread_2 - getAllTopicListFromNameserver /172.20.0.4:38922 enable true
+2024-04-12 15:22:30 WARN RemotingExecutorThread_4 - getAllTopicListFromNameserver /172.20.0.1:41678 enable true
+2024-04-12 15:22:32 INFO NSScanScheduledThread - start scanNotActiveBroker
+2024-04-12 15:22:37 INFO NSScanScheduledThread - start scanNotActiveBroker
+2024-04-12 15:22:42 INFO NSScanScheduledThread - start scanNotActiveBroker
