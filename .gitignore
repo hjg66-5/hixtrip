@@ -22,7 +22,7 @@ target/
 ### NetBeans ###
 /nbproject/private/
 /nbbuild/
-/docs/
+#/docs/
 /nbdist/
 /.nb-gradle/
 build/
