@@ -1,7 +1,10 @@
 PS：用到支付宝沙箱、Redis、DDD、MYSQL、前端js、docker、docker-compose
+
 DDD真的是好用！！！！爱了爱了。
 
 【有录制演示视频，可以小看一下😄】
+
+【点击我的主页可以B站、CSDN找到我】
 
 
 # hixtrip
