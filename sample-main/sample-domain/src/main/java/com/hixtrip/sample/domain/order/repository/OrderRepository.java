@@ -47,6 +47,6 @@ public interface OrderRepository {
      */
     void changeOrderPaySuccess(String orderId);
 
-
+    String querySkuIdByOrderId(String orderId);
 
 }

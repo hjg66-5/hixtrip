@@ -5,8 +5,10 @@ import com.hixtrip.sample.client.enums.ResponseCode;
 import com.hixtrip.sample.client.model.Response;
 import com.hixtrip.sample.client.order.dto.CommandOderCreateDTO;
 import com.hixtrip.sample.domain.order.IOrderDomainService;
+import com.hixtrip.sample.domain.order.repository.OrderRepository;
 import com.hixtrip.sample.domain.pay.model.CommandPay;
 import com.hixtrip.sample.domain.sample.model.SampleCart;
+import com.hixtrip.sample.infra.data.RedisUtils;
 import jakarta.servlet.http.HttpServletRequest;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,6 +18,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Objects;
 
 
 /**
@@ -32,6 +35,11 @@ public class OrderController {
     @Autowired
     private IOrderDomainService orderService;
 
+    @Autowired
+    protected OrderRepository orderRepository;
+
+    @Autowired
+    private RedisUtils redisUtils;
 
     /**
      * todo 这是你要实现的接口
@@ -84,6 +92,7 @@ public class OrderController {
                 }
 
                 String tradeNo = params.get("out_trade_no");
+                String num = params.get("subject").substring(params.get("subject").length() - 1);;
                 String gmtPayment = params.get("gmt_payment");
                 String alipayTradeNo = params.get("trade_no");
 
@@ -106,6 +115,10 @@ public class OrderController {
                     orderService.orderPaySuccess(tradeNo);
                     // 异步扣减商品库存
 //                    rocketMqUtils.asyncSend("PERSON_ADD", MessageBuilder.withPayload(tradeNo).build());
+                    if (Objects.nonNull(num)){
+                        String skuId = orderRepository.querySkuIdByOrderId(tradeNo);
+                        redisUtils.decr(skuId, Long.parseLong(num));
+                    }
                 }
             }
             return "success";

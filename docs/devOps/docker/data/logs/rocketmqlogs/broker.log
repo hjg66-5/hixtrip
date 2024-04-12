@@ -7124,3 +7124,401 @@ See https://rocketmq.apache.org/docs/bestPractice/06FAQ for further details., ex
 2024-04-12 15:21:16 INFO brokerOutApi_thread_1 - Registering current broker to name server completed. TargetHost=localhost:9876
 2024-04-12 15:21:46 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
 2024-04-12 15:21:46 INFO brokerOutApi_thread_2 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 15:22:16 INFO brokerOutApi_thread_3 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 15:22:46 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-04-12 15:22:46 INFO brokerOutApi_thread_4 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 15:23:16 INFO brokerOutApi_thread_1 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 15:23:46 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-04-12 15:23:46 INFO brokerOutApi_thread_2 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 15:24:16 INFO brokerOutApi_thread_3 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 15:24:46 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-04-12 15:24:46 INFO brokerOutApi_thread_4 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 15:24:52 INFO ClientManageThread_25 - unregister a producer[xfg-group] from groupChannelTable ClientChannelInfo [channel=[id: 0xcdeb1fa6, L:/172.20.0.4:10911 - R:/172.20.0.1:50422], clientId=172.24.160.1@29132#71322753017500, language=JAVA, version=413, lastUpdateTimestamp=1712906692685]
+2024-04-12 15:24:52 INFO ClientManageThread_26 - unregister a producer[CLIENT_INNER_PRODUCER] from groupChannelTable ClientChannelInfo [channel=[id: 0xcdeb1fa6, L:/172.20.0.4:10911 - R:/172.20.0.1:50422], clientId=172.24.160.1@29132#71322753017500, language=JAVA, version=413, lastUpdateTimestamp=1712906692688]
+2024-04-12 15:24:54 INFO ClientManageThread_27 - unregister a consumer[xfg-group] from consumerGroupInfo ClientChannelInfo [channel=[id: 0xa1ca7a8b, L:/172.20.0.4:10911 - R:/172.20.0.1:57322], clientId=172.24.160.1@127.0.0.1:9876@30500, language=JAVA, version=373, lastUpdateTimestamp=1712906671879]
+2024-04-12 15:24:54 INFO ClientManageThread_27 - unregister consumer ok, no any connection, and remove consumer group, xfg-group
+2024-04-12 15:24:54 INFO ClientManageThread_28 - unregister a producer[CLIENT_INNER_PRODUCER] from groupChannelTable ClientChannelInfo [channel=[id: 0xa1ca7a8b, L:/172.20.0.4:10911 - R:/172.20.0.1:57322], clientId=172.24.160.1@127.0.0.1:9876@30500, language=JAVA, version=373, lastUpdateTimestamp=1712906694285]
+2024-04-12 15:24:54 INFO ClientManageThread_29 - unregister a producer[_INNER_TRACE_PRODUCER-xfg-group-CONSUME] from groupChannelTable ClientChannelInfo [channel=[id: 0xb3497c07, L:/172.20.0.4:10911 - R:/172.20.0.1:57338], clientId=172.24.160.1@PID_CLIENT_INNER_TRACE_PRODUCER_127.0.0.1:9876, language=JAVA, version=373, lastUpdateTimestamp=1712906694292]
+2024-04-12 15:24:54 INFO ClientManageThread_29 - unregister a producer group[_INNER_TRACE_PRODUCER-xfg-group-CONSUME] from groupChannelTable
+2024-04-12 15:24:54 INFO ClientManageThread_30 - unregister a producer[xfg-group] from groupChannelTable ClientChannelInfo [channel=[id: 0xd5f44ace, L:/172.20.0.4:10911 - R:/172.20.0.1:57350], clientId=172.24.160.1@30500, language=JAVA, version=373, lastUpdateTimestamp=1712906694312]
+2024-04-12 15:24:54 INFO ClientManageThread_30 - unregister a producer group[xfg-group] from groupChannelTable
+2024-04-12 15:24:54 INFO ClientManageThread_31 - unregister a producer[CLIENT_INNER_PRODUCER] from groupChannelTable ClientChannelInfo [channel=[id: 0xd5f44ace, L:/172.20.0.4:10911 - R:/172.20.0.1:57350], clientId=172.24.160.1@30500, language=JAVA, version=373, lastUpdateTimestamp=1712906694314]
+2024-04-12 15:24:54 INFO ClientManageThread_32 - unregister a producer[_INNER_TRACE_PRODUCER-xfg-group-PRODUCE] from groupChannelTable ClientChannelInfo [channel=[id: 0xb3497c07, L:/172.20.0.4:10911 - R:/172.20.0.1:57338], clientId=172.24.160.1@PID_CLIENT_INNER_TRACE_PRODUCER_127.0.0.1:9876, language=JAVA, version=373, lastUpdateTimestamp=1712906694315]
+2024-04-12 15:24:54 INFO ClientManageThread_32 - unregister a producer group[_INNER_TRACE_PRODUCER-xfg-group-PRODUCE] from groupChannelTable
+2024-04-12 15:24:54 INFO ClientManageThread_1 - unregister a producer[CLIENT_INNER_PRODUCER] from groupChannelTable ClientChannelInfo [channel=[id: 0xb3497c07, L:/172.20.0.4:10911 - R:/172.20.0.1:57338], clientId=172.24.160.1@PID_CLIENT_INNER_TRACE_PRODUCER_127.0.0.1:9876, language=JAVA, version=373, lastUpdateTimestamp=1712906694316]
+2024-04-12 15:25:06 WARN PullMessageThread_26 - the consumer's group info not exist, group: xfg-group
+2024-04-12 15:25:06 WARN PullMessageThread_37 - the consumer's group info not exist, group: xfg-group
+2024-04-12 15:25:06 WARN PullMessageThread_27 - the consumer's group info not exist, group: xfg-group
+2024-04-12 15:25:06 WARN PullMessageThread_24 - the consumer's group info not exist, group: xfg-group
+2024-04-12 15:25:06 WARN PullMessageThread_33 - the consumer's group info not exist, group: xfg-group
+2024-04-12 15:25:06 ERROR NettyServerNIOSelector_3_3 - processRequestWrapper response to /172.20.0.1:57322 failed
+io.netty.channel.StacklessClosedChannelException: null
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(Object, ChannelPromise)(Unknown Source)
+2024-04-12 15:25:06 ERROR NettyServerNIOSelector_3_3 - RemotingCommand [code=11, language=JAVA, version=373, opaque=5018, flag(B)=0, remark=null, extFields={queueId=0, maxMsgNums=32, sysFlag=2, suspendTimeoutMillis=15000, commitOffset=0, topic=%RETRY%xfg-group, queueOffset=0, expressionType=TAG, subVersion=1712904540902, consumerGroup=xfg-group}, serializeTypeCurrentRPC=JSON]
+2024-04-12 15:25:06 ERROR NettyServerNIOSelector_3_3 - RemotingCommand [code=24, language=JAVA, version=433, opaque=5018, flag(B)=1, remark=the consumer's group info not exist
+See https://rocketmq.apache.org/docs/bestPractice/06FAQ for further details., extFields=null, serializeTypeCurrentRPC=JSON]
+2024-04-12 15:25:06 ERROR NettyServerNIOSelector_3_3 - processRequestWrapper response to /172.20.0.1:57322 failed
+io.netty.channel.StacklessClosedChannelException: null
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(Object, ChannelPromise)(Unknown Source)
+2024-04-12 15:25:06 ERROR NettyServerNIOSelector_3_3 - RemotingCommand [code=11, language=JAVA, version=373, opaque=5021, flag(B)=0, remark=null, extFields={queueId=2, maxMsgNums=32, sysFlag=3, suspendTimeoutMillis=15000, commitOffset=74, topic=xfg-mq, queueOffset=74, expressionType=TAG, subVersion=1712904540912, consumerGroup=xfg-group}, serializeTypeCurrentRPC=JSON]
+2024-04-12 15:25:06 ERROR NettyServerNIOSelector_3_3 - RemotingCommand [code=24, language=JAVA, version=433, opaque=5021, flag(B)=1, remark=the consumer's group info not exist
+See https://rocketmq.apache.org/docs/bestPractice/06FAQ for further details., extFields=null, serializeTypeCurrentRPC=JSON]
+2024-04-12 15:25:06 ERROR NettyServerNIOSelector_3_3 - processRequestWrapper response to /172.20.0.1:57322 failed
+io.netty.channel.StacklessClosedChannelException: null
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(Object, ChannelPromise)(Unknown Source)
+2024-04-12 15:25:06 ERROR NettyServerNIOSelector_3_3 - RemotingCommand [code=11, language=JAVA, version=373, opaque=5022, flag(B)=0, remark=null, extFields={queueId=3, maxMsgNums=32, sysFlag=3, suspendTimeoutMillis=15000, commitOffset=74, topic=xfg-mq, queueOffset=74, expressionType=TAG, subVersion=1712904540912, consumerGroup=xfg-group}, serializeTypeCurrentRPC=JSON]
+2024-04-12 15:25:06 ERROR NettyServerNIOSelector_3_3 - RemotingCommand [code=24, language=JAVA, version=433, opaque=5022, flag(B)=1, remark=the consumer's group info not exist
+See https://rocketmq.apache.org/docs/bestPractice/06FAQ for further details., extFields=null, serializeTypeCurrentRPC=JSON]
+2024-04-12 15:25:06 ERROR NettyServerNIOSelector_3_3 - processRequestWrapper response to /172.20.0.1:57322 failed
+io.netty.channel.StacklessClosedChannelException: null
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(Object, ChannelPromise)(Unknown Source)
+2024-04-12 15:25:06 ERROR NettyServerNIOSelector_3_3 - RemotingCommand [code=11, language=JAVA, version=373, opaque=5023, flag(B)=0, remark=null, extFields={queueId=0, maxMsgNums=32, sysFlag=3, suspendTimeoutMillis=15000, commitOffset=78, topic=xfg-mq, queueOffset=78, expressionType=TAG, subVersion=1712904540912, consumerGroup=xfg-group}, serializeTypeCurrentRPC=JSON]
+2024-04-12 15:25:06 ERROR NettyServerNIOSelector_3_3 - RemotingCommand [code=24, language=JAVA, version=433, opaque=5023, flag(B)=1, remark=the consumer's group info not exist
+See https://rocketmq.apache.org/docs/bestPractice/06FAQ for further details., extFields=null, serializeTypeCurrentRPC=JSON]
+2024-04-12 15:25:06 ERROR NettyServerNIOSelector_3_3 - processRequestWrapper response to /172.20.0.1:57322 failed
+io.netty.channel.StacklessClosedChannelException: null
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(Object, ChannelPromise)(Unknown Source)
+2024-04-12 15:25:06 ERROR NettyServerNIOSelector_3_3 - RemotingCommand [code=11, language=JAVA, version=373, opaque=5020, flag(B)=0, remark=null, extFields={queueId=1, maxMsgNums=32, sysFlag=3, suspendTimeoutMillis=15000, commitOffset=78, topic=xfg-mq, queueOffset=78, expressionType=TAG, subVersion=1712904540912, consumerGroup=xfg-group}, serializeTypeCurrentRPC=JSON]
+2024-04-12 15:25:06 ERROR NettyServerNIOSelector_3_3 - RemotingCommand [code=24, language=JAVA, version=433, opaque=5020, flag(B)=1, remark=the consumer's group info not exist
+See https://rocketmq.apache.org/docs/bestPractice/06FAQ for further details., extFields=null, serializeTypeCurrentRPC=JSON]
+2024-04-12 15:25:16 INFO brokerOutApi_thread_1 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 15:25:46 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-04-12 15:25:46 INFO brokerOutApi_thread_2 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 15:26:16 INFO brokerOutApi_thread_3 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 15:26:46 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-04-12 15:26:46 INFO brokerOutApi_thread_4 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 15:27:16 INFO brokerOutApi_thread_1 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 15:27:46 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-04-12 15:27:46 INFO brokerOutApi_thread_2 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 15:28:16 INFO brokerOutApi_thread_3 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 15:28:46 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-04-12 15:28:46 INFO brokerOutApi_thread_4 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 15:29:16 INFO brokerOutApi_thread_1 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 15:29:46 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-04-12 15:29:46 INFO brokerOutApi_thread_2 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 15:30:16 INFO brokerOutApi_thread_3 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 15:30:46 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-04-12 15:30:46 INFO brokerOutApi_thread_4 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 15:31:16 INFO brokerOutApi_thread_1 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 15:31:46 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-04-12 15:31:46 INFO brokerOutApi_thread_2 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 15:32:16 INFO brokerOutApi_thread_3 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 15:32:46 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-04-12 15:32:46 INFO brokerOutApi_thread_4 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 15:33:16 INFO brokerOutApi_thread_1 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 15:33:46 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-04-12 15:33:46 INFO brokerOutApi_thread_2 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 15:34:16 INFO brokerOutApi_thread_3 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 15:34:46 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-04-12 15:34:46 INFO brokerOutApi_thread_4 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 15:35:16 INFO brokerOutApi_thread_1 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 15:35:46 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-04-12 15:35:46 INFO brokerOutApi_thread_2 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 15:36:16 INFO brokerOutApi_thread_3 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 15:36:46 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-04-12 15:36:46 INFO brokerOutApi_thread_4 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 15:37:16 INFO brokerOutApi_thread_1 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 15:37:46 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-04-12 15:37:46 INFO brokerOutApi_thread_2 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 15:38:16 INFO brokerOutApi_thread_3 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 15:38:46 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-04-12 15:38:46 INFO brokerOutApi_thread_4 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 15:39:16 INFO brokerOutApi_thread_1 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 15:39:46 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-04-12 15:39:46 INFO brokerOutApi_thread_2 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 15:40:16 INFO brokerOutApi_thread_3 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 15:40:46 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-04-12 15:40:46 INFO brokerOutApi_thread_4 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 15:41:16 INFO brokerOutApi_thread_1 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 15:41:46 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-04-12 15:41:46 INFO brokerOutApi_thread_2 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 15:42:16 INFO brokerOutApi_thread_3 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 15:42:46 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-04-12 15:42:46 INFO brokerOutApi_thread_4 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 15:43:16 INFO brokerOutApi_thread_1 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 15:43:39 INFO HeartbeatThread_9 - new producer connected, group: xfg-group channel: ClientChannelInfo [channel=[id: 0xcede4164, L:/172.20.0.4:10911 - R:/172.20.0.1:55294], clientId=172.24.160.1@8676#73173065202800, language=JAVA, version=413, lastUpdateTimestamp=1712907819392]
+2024-04-12 15:43:39 INFO HeartbeatThread_9 - new producer connected, group: CLIENT_INNER_PRODUCER channel: ClientChannelInfo [channel=[id: 0xcede4164, L:/172.20.0.4:10911 - R:/172.20.0.1:55294], clientId=172.24.160.1@8676#73173065202800, language=JAVA, version=413, lastUpdateTimestamp=1712907819392]
+2024-04-12 15:43:46 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-04-12 15:43:46 INFO brokerOutApi_thread_2 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 15:44:16 INFO brokerOutApi_thread_3 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 15:44:46 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-04-12 15:44:46 INFO brokerOutApi_thread_4 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 15:45:16 INFO brokerOutApi_thread_1 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 15:45:33 INFO ClientManageThread_4 - unregister a producer[xfg-group] from groupChannelTable ClientChannelInfo [channel=[id: 0xcede4164, L:/172.20.0.4:10911 - R:/172.20.0.1:55294], clientId=172.24.160.1@8676#73173065202800, language=JAVA, version=413, lastUpdateTimestamp=1712907933971]
+2024-04-12 15:45:33 INFO ClientManageThread_4 - unregister a producer group[xfg-group] from groupChannelTable
+2024-04-12 15:45:33 INFO ClientManageThread_5 - unregister a producer[CLIENT_INNER_PRODUCER] from groupChannelTable ClientChannelInfo [channel=[id: 0xcede4164, L:/172.20.0.4:10911 - R:/172.20.0.1:55294], clientId=172.24.160.1@8676#73173065202800, language=JAVA, version=413, lastUpdateTimestamp=1712907933977]
+2024-04-12 15:45:40 INFO HeartbeatThread_9 - new producer connected, group: xfg-group channel: ClientChannelInfo [channel=[id: 0x4d01122d, L:/172.20.0.4:10911 - R:/172.20.0.1:36314], clientId=172.24.160.1@22808#73293977192900, language=JAVA, version=413, lastUpdateTimestamp=1712907940314]
+2024-04-12 15:45:40 INFO HeartbeatThread_9 - new producer connected, group: CLIENT_INNER_PRODUCER channel: ClientChannelInfo [channel=[id: 0x4d01122d, L:/172.20.0.4:10911 - R:/172.20.0.1:36314], clientId=172.24.160.1@22808#73293977192900, language=JAVA, version=413, lastUpdateTimestamp=1712907940314]
+2024-04-12 15:45:46 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-04-12 15:45:46 INFO brokerOutApi_thread_2 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 15:46:02 INFO ClientManageThread_6 - unregister a producer[xfg-group] from groupChannelTable ClientChannelInfo [channel=[id: 0x4d01122d, L:/172.20.0.4:10911 - R:/172.20.0.1:36314], clientId=172.24.160.1@22808#73293977192900, language=JAVA, version=413, lastUpdateTimestamp=1712907962833]
+2024-04-12 15:46:02 INFO ClientManageThread_6 - unregister a producer group[xfg-group] from groupChannelTable
+2024-04-12 15:46:02 INFO ClientManageThread_7 - unregister a producer[CLIENT_INNER_PRODUCER] from groupChannelTable ClientChannelInfo [channel=[id: 0x4d01122d, L:/172.20.0.4:10911 - R:/172.20.0.1:36314], clientId=172.24.160.1@22808#73293977192900, language=JAVA, version=413, lastUpdateTimestamp=1712907962836]
+2024-04-12 15:46:08 INFO HeartbeatThread_12 - new producer connected, group: xfg-group channel: ClientChannelInfo [channel=[id: 0x7a005237, L:/172.20.0.4:10911 - R:/172.20.0.1:39096], clientId=172.24.160.1@32292#73321793972700, language=JAVA, version=413, lastUpdateTimestamp=1712907968141]
+2024-04-12 15:46:08 INFO HeartbeatThread_12 - new producer connected, group: CLIENT_INNER_PRODUCER channel: ClientChannelInfo [channel=[id: 0x7a005237, L:/172.20.0.4:10911 - R:/172.20.0.1:39096], clientId=172.24.160.1@32292#73321793972700, language=JAVA, version=413, lastUpdateTimestamp=1712907968141]
+2024-04-12 15:46:16 INFO brokerOutApi_thread_3 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 15:46:46 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-04-12 15:46:46 INFO brokerOutApi_thread_4 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 15:47:16 INFO brokerOutApi_thread_1 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 15:47:46 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-04-12 15:47:46 INFO brokerOutApi_thread_2 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 15:48:16 INFO brokerOutApi_thread_3 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 15:48:21 INFO ClientManageThread_8 - unregister a producer[xfg-group] from groupChannelTable ClientChannelInfo [channel=[id: 0x7a005237, L:/172.20.0.4:10911 - R:/172.20.0.1:39096], clientId=172.24.160.1@32292#73321793972700, language=JAVA, version=413, lastUpdateTimestamp=1712908101779]
+2024-04-12 15:48:21 INFO ClientManageThread_8 - unregister a producer group[xfg-group] from groupChannelTable
+2024-04-12 15:48:21 INFO ClientManageThread_9 - unregister a producer[CLIENT_INNER_PRODUCER] from groupChannelTable ClientChannelInfo [channel=[id: 0x7a005237, L:/172.20.0.4:10911 - R:/172.20.0.1:39096], clientId=172.24.160.1@32292#73321793972700, language=JAVA, version=413, lastUpdateTimestamp=1712908101783]
+2024-04-12 15:48:27 INFO HeartbeatThread_2 - new producer connected, group: xfg-group channel: ClientChannelInfo [channel=[id: 0x7ca03cb7, L:/172.20.0.4:10911 - R:/172.20.0.1:53742], clientId=172.24.160.1@30044#73460883822900, language=JAVA, version=413, lastUpdateTimestamp=1712908107230]
+2024-04-12 15:48:27 INFO HeartbeatThread_2 - new producer connected, group: CLIENT_INNER_PRODUCER channel: ClientChannelInfo [channel=[id: 0x7ca03cb7, L:/172.20.0.4:10911 - R:/172.20.0.1:53742], clientId=172.24.160.1@30044#73460883822900, language=JAVA, version=413, lastUpdateTimestamp=1712908107230]
+2024-04-12 15:48:46 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-04-12 15:48:46 INFO brokerOutApi_thread_4 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 15:49:16 INFO brokerOutApi_thread_1 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 15:49:46 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-04-12 15:49:46 INFO brokerOutApi_thread_2 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 15:50:16 INFO brokerOutApi_thread_3 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 15:50:46 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-04-12 15:50:46 INFO brokerOutApi_thread_4 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 15:51:16 INFO brokerOutApi_thread_1 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 15:51:27 INFO NettyEventExecutor - NETTY EVENT: remove channel[ClientChannelInfo [channel=[id: 0x7ca03cb7, L:/172.20.0.4:10911 ! R:/172.20.0.1:53742], clientId=172.24.160.1@30044#73460883822900, language=JAVA, version=413, lastUpdateTimestamp=1712908167210]][172.20.0.1:53742] from ProducerManager groupChannelTable, producer group: xfg-group
+2024-04-12 15:51:27 INFO NettyEventExecutor - unregister a producer group[xfg-group] from groupChannelTable
+2024-04-12 15:51:27 INFO NettyEventExecutor - NETTY EVENT: remove channel[ClientChannelInfo [channel=[id: 0x7ca03cb7, L:/172.20.0.4:10911 ! R:/172.20.0.1:53742], clientId=172.24.160.1@30044#73460883822900, language=JAVA, version=413, lastUpdateTimestamp=1712908167210]][172.20.0.1:53742] from ProducerManager groupChannelTable, producer group: CLIENT_INNER_PRODUCER
+2024-04-12 15:51:46 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-04-12 15:51:46 INFO brokerOutApi_thread_2 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 15:52:16 INFO brokerOutApi_thread_3 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 15:52:46 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-04-12 15:52:46 INFO brokerOutApi_thread_4 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 15:53:16 INFO brokerOutApi_thread_1 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 15:53:46 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-04-12 15:53:46 INFO brokerOutApi_thread_2 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 15:54:16 INFO brokerOutApi_thread_3 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 15:54:46 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-04-12 15:54:46 INFO brokerOutApi_thread_4 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 15:55:16 INFO brokerOutApi_thread_1 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 15:55:46 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-04-12 15:55:46 INFO brokerOutApi_thread_2 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 15:56:16 INFO brokerOutApi_thread_3 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 15:56:46 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-04-12 15:56:46 INFO brokerOutApi_thread_4 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 15:57:16 INFO brokerOutApi_thread_1 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 15:57:46 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-04-12 15:57:46 INFO brokerOutApi_thread_2 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 15:58:16 INFO brokerOutApi_thread_3 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 15:58:46 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-04-12 15:58:46 INFO brokerOutApi_thread_4 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 15:59:16 INFO brokerOutApi_thread_1 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 15:59:46 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-04-12 15:59:46 INFO brokerOutApi_thread_2 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 16:00:16 INFO brokerOutApi_thread_3 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 16:00:46 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-04-12 16:00:46 INFO brokerOutApi_thread_4 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 16:01:16 INFO brokerOutApi_thread_1 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 16:01:46 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-04-12 16:01:46 INFO brokerOutApi_thread_2 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 16:02:16 INFO brokerOutApi_thread_3 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 16:02:46 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-04-12 16:02:46 INFO brokerOutApi_thread_4 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 16:03:16 INFO brokerOutApi_thread_1 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 16:03:46 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-04-12 16:03:46 INFO brokerOutApi_thread_2 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 16:04:16 INFO brokerOutApi_thread_3 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 16:04:46 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-04-12 16:04:46 INFO brokerOutApi_thread_4 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 16:05:16 INFO brokerOutApi_thread_1 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 16:05:46 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-04-12 16:05:46 INFO brokerOutApi_thread_2 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 16:06:16 INFO brokerOutApi_thread_3 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 16:06:26 INFO HeartbeatThread_5 - new producer connected, group: xfg-group channel: ClientChannelInfo [channel=[id: 0x8ffdd860, L:/172.20.0.4:10911 - R:/172.20.0.1:60834], clientId=172.24.160.1@30044#73460883822900, language=JAVA, version=413, lastUpdateTimestamp=1712909186830]
+2024-04-12 16:06:26 INFO HeartbeatThread_5 - new producer connected, group: CLIENT_INNER_PRODUCER channel: ClientChannelInfo [channel=[id: 0x8ffdd860, L:/172.20.0.4:10911 - R:/172.20.0.1:60834], clientId=172.24.160.1@30044#73460883822900, language=JAVA, version=413, lastUpdateTimestamp=1712909186830]
+2024-04-12 16:06:26 INFO ClientManageThread_10 - unregister a producer[xfg-group] from groupChannelTable ClientChannelInfo [channel=[id: 0x8ffdd860, L:/172.20.0.4:10911 - R:/172.20.0.1:60834], clientId=172.24.160.1@30044#73460883822900, language=JAVA, version=413, lastUpdateTimestamp=1712909186873]
+2024-04-12 16:06:26 INFO ClientManageThread_10 - unregister a producer group[xfg-group] from groupChannelTable
+2024-04-12 16:06:26 INFO ClientManageThread_11 - unregister a producer[CLIENT_INNER_PRODUCER] from groupChannelTable ClientChannelInfo [channel=[id: 0x8ffdd860, L:/172.20.0.4:10911 - R:/172.20.0.1:60834], clientId=172.24.160.1@30044#73460883822900, language=JAVA, version=413, lastUpdateTimestamp=1712909186877]
+2024-04-12 16:06:33 INFO HeartbeatThread_8 - new producer connected, group: xfg-group channel: ClientChannelInfo [channel=[id: 0x771e6364, L:/172.20.0.4:10911 - R:/172.20.0.1:60842], clientId=172.24.160.1@25232#74547583753600, language=JAVA, version=413, lastUpdateTimestamp=1712909193923]
+2024-04-12 16:06:33 INFO HeartbeatThread_8 - new producer connected, group: CLIENT_INNER_PRODUCER channel: ClientChannelInfo [channel=[id: 0x771e6364, L:/172.20.0.4:10911 - R:/172.20.0.1:60842], clientId=172.24.160.1@25232#74547583753600, language=JAVA, version=413, lastUpdateTimestamp=1712909193923]
+2024-04-12 16:06:46 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-04-12 16:06:46 INFO brokerOutApi_thread_4 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 16:07:16 INFO brokerOutApi_thread_1 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 16:07:46 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-04-12 16:07:46 INFO brokerOutApi_thread_2 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 16:07:53 INFO ClientManageThread_12 - unregister a producer[xfg-group] from groupChannelTable ClientChannelInfo [channel=[id: 0x771e6364, L:/172.20.0.4:10911 - R:/172.20.0.1:60842], clientId=172.24.160.1@25232#74547583753600, language=JAVA, version=413, lastUpdateTimestamp=1712909273249]
+2024-04-12 16:07:53 INFO ClientManageThread_12 - unregister a producer group[xfg-group] from groupChannelTable
+2024-04-12 16:07:53 INFO ClientManageThread_13 - unregister a producer[CLIENT_INNER_PRODUCER] from groupChannelTable ClientChannelInfo [channel=[id: 0x771e6364, L:/172.20.0.4:10911 - R:/172.20.0.1:60842], clientId=172.24.160.1@25232#74547583753600, language=JAVA, version=413, lastUpdateTimestamp=1712909273253]
+2024-04-12 16:07:59 INFO HeartbeatThread_4 - new producer connected, group: CLIENT_INNER_PRODUCER channel: ClientChannelInfo [channel=[id: 0xef014c4e, L:/172.20.0.4:10911 - R:/172.20.0.1:50172], clientId=172.24.160.1@32704#74633365582400, language=JAVA, version=413, lastUpdateTimestamp=1712909279695]
+2024-04-12 16:07:59 INFO HeartbeatThread_4 - new producer connected, group: xfg-group channel: ClientChannelInfo [channel=[id: 0xef014c4e, L:/172.20.0.4:10911 - R:/172.20.0.1:50172], clientId=172.24.160.1@32704#74633365582400, language=JAVA, version=413, lastUpdateTimestamp=1712909279695]
+2024-04-12 16:08:16 INFO brokerOutApi_thread_3 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 16:08:46 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-04-12 16:08:46 INFO brokerOutApi_thread_4 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 16:09:16 INFO brokerOutApi_thread_1 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 16:09:19 INFO ClientManageThread_14 - unregister a producer[xfg-group] from groupChannelTable ClientChannelInfo [channel=[id: 0xef014c4e, L:/172.20.0.4:10911 - R:/172.20.0.1:50172], clientId=172.24.160.1@32704#74633365582400, language=JAVA, version=413, lastUpdateTimestamp=1712909359665]
+2024-04-12 16:09:19 INFO ClientManageThread_14 - unregister a producer group[xfg-group] from groupChannelTable
+2024-04-12 16:09:19 INFO ClientManageThread_15 - unregister a producer[CLIENT_INNER_PRODUCER] from groupChannelTable ClientChannelInfo [channel=[id: 0xef014c4e, L:/172.20.0.4:10911 - R:/172.20.0.1:50172], clientId=172.24.160.1@32704#74633365582400, language=JAVA, version=413, lastUpdateTimestamp=1712909359670]
+2024-04-12 16:09:25 INFO HeartbeatThread_1 - new producer connected, group: CLIENT_INNER_PRODUCER channel: ClientChannelInfo [channel=[id: 0xa5c56c98, L:/172.20.0.4:10911 - R:/172.20.0.1:47650], clientId=172.24.160.1@12704#74718878751600, language=JAVA, version=413, lastUpdateTimestamp=1712909365211]
+2024-04-12 16:09:25 INFO HeartbeatThread_1 - new producer connected, group: xfg-group channel: ClientChannelInfo [channel=[id: 0xa5c56c98, L:/172.20.0.4:10911 - R:/172.20.0.1:47650], clientId=172.24.160.1@12704#74718878751600, language=JAVA, version=413, lastUpdateTimestamp=1712909365211]
+2024-04-12 16:09:46 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-04-12 16:09:46 INFO brokerOutApi_thread_2 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 16:10:16 INFO brokerOutApi_thread_3 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 16:10:23 INFO ClientManageThread_16 - unregister a producer[xfg-group] from groupChannelTable ClientChannelInfo [channel=[id: 0xa5c56c98, L:/172.20.0.4:10911 - R:/172.20.0.1:47650], clientId=172.24.160.1@12704#74718878751600, language=JAVA, version=413, lastUpdateTimestamp=1712909423121]
+2024-04-12 16:10:23 INFO ClientManageThread_16 - unregister a producer group[xfg-group] from groupChannelTable
+2024-04-12 16:10:23 INFO ClientManageThread_17 - unregister a producer[CLIENT_INNER_PRODUCER] from groupChannelTable ClientChannelInfo [channel=[id: 0xa5c56c98, L:/172.20.0.4:10911 - R:/172.20.0.1:47650], clientId=172.24.160.1@12704#74718878751600, language=JAVA, version=413, lastUpdateTimestamp=1712909423125]
+2024-04-12 16:10:29 INFO HeartbeatThread_7 - new producer connected, group: CLIENT_INNER_PRODUCER channel: ClientChannelInfo [channel=[id: 0x16220c19, L:/172.20.0.4:10911 - R:/172.20.0.1:54770], clientId=172.24.160.1@30592#74783483041400, language=JAVA, version=413, lastUpdateTimestamp=1712909429826]
+2024-04-12 16:10:29 INFO HeartbeatThread_7 - new producer connected, group: xfg-group channel: ClientChannelInfo [channel=[id: 0x16220c19, L:/172.20.0.4:10911 - R:/172.20.0.1:54770], clientId=172.24.160.1@30592#74783483041400, language=JAVA, version=413, lastUpdateTimestamp=1712909429826]
+2024-04-12 16:10:46 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-04-12 16:10:46 INFO brokerOutApi_thread_4 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 16:11:16 INFO brokerOutApi_thread_1 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 16:11:34 INFO ClientManageThread_18 - unregister a producer[xfg-group] from groupChannelTable ClientChannelInfo [channel=[id: 0x16220c19, L:/172.20.0.4:10911 - R:/172.20.0.1:54770], clientId=172.24.160.1@30592#74783483041400, language=JAVA, version=413, lastUpdateTimestamp=1712909494038]
+2024-04-12 16:11:34 INFO ClientManageThread_18 - unregister a producer group[xfg-group] from groupChannelTable
+2024-04-12 16:11:34 INFO ClientManageThread_19 - unregister a producer[CLIENT_INNER_PRODUCER] from groupChannelTable ClientChannelInfo [channel=[id: 0x16220c19, L:/172.20.0.4:10911 - R:/172.20.0.1:54770], clientId=172.24.160.1@30592#74783483041400, language=JAVA, version=413, lastUpdateTimestamp=1712909494043]
+2024-04-12 16:11:40 INFO HeartbeatThread_3 - new producer connected, group: xfg-group channel: ClientChannelInfo [channel=[id: 0xdce75371, L:/172.20.0.4:10911 - R:/172.20.0.1:48626], clientId=172.24.160.1@17832#74854552773400, language=JAVA, version=413, lastUpdateTimestamp=1712909500880]
+2024-04-12 16:11:40 INFO HeartbeatThread_3 - new producer connected, group: CLIENT_INNER_PRODUCER channel: ClientChannelInfo [channel=[id: 0xdce75371, L:/172.20.0.4:10911 - R:/172.20.0.1:48626], clientId=172.24.160.1@17832#74854552773400, language=JAVA, version=413, lastUpdateTimestamp=1712909500880]
+2024-04-12 16:11:46 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-04-12 16:11:46 INFO brokerOutApi_thread_2 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 16:12:16 INFO brokerOutApi_thread_3 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 16:12:46 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-04-12 16:12:46 INFO brokerOutApi_thread_4 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 16:13:16 INFO brokerOutApi_thread_1 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 16:13:46 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-04-12 16:13:46 INFO brokerOutApi_thread_2 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 16:14:16 INFO brokerOutApi_thread_3 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 16:14:38 INFO ClientManageThread_20 - unregister a producer[xfg-group] from groupChannelTable ClientChannelInfo [channel=[id: 0xdce75371, L:/172.20.0.4:10911 - R:/172.20.0.1:48626], clientId=172.24.160.1@17832#74854552773400, language=JAVA, version=413, lastUpdateTimestamp=1712909678707]
+2024-04-12 16:14:38 INFO ClientManageThread_20 - unregister a producer group[xfg-group] from groupChannelTable
+2024-04-12 16:14:38 INFO ClientManageThread_21 - unregister a producer[CLIENT_INNER_PRODUCER] from groupChannelTable ClientChannelInfo [channel=[id: 0xdce75371, L:/172.20.0.4:10911 - R:/172.20.0.1:48626], clientId=172.24.160.1@17832#74854552773400, language=JAVA, version=413, lastUpdateTimestamp=1712909678710]
+2024-04-12 16:14:44 INFO HeartbeatThread_9 - new producer connected, group: xfg-group channel: ClientChannelInfo [channel=[id: 0x156658f3, L:/172.20.0.4:10911 - R:/172.20.0.1:41002], clientId=172.24.160.1@20988#75038411837400, language=JAVA, version=413, lastUpdateTimestamp=1712909684744]
+2024-04-12 16:14:44 INFO HeartbeatThread_9 - new producer connected, group: CLIENT_INNER_PRODUCER channel: ClientChannelInfo [channel=[id: 0x156658f3, L:/172.20.0.4:10911 - R:/172.20.0.1:41002], clientId=172.24.160.1@20988#75038411837400, language=JAVA, version=413, lastUpdateTimestamp=1712909684744]
+2024-04-12 16:14:46 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-04-12 16:14:46 INFO brokerOutApi_thread_4 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 16:15:16 INFO brokerOutApi_thread_1 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 16:15:46 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-04-12 16:15:46 INFO brokerOutApi_thread_2 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 16:16:16 INFO brokerOutApi_thread_3 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 16:16:46 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-04-12 16:16:46 INFO brokerOutApi_thread_4 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 16:17:16 INFO brokerOutApi_thread_1 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 16:17:46 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-04-12 16:17:46 INFO brokerOutApi_thread_2 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 16:18:16 INFO brokerOutApi_thread_3 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 16:18:46 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-04-12 16:18:46 INFO brokerOutApi_thread_4 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 16:19:16 INFO brokerOutApi_thread_1 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 16:19:46 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-04-12 16:19:46 INFO brokerOutApi_thread_2 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 16:20:16 INFO brokerOutApi_thread_3 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 16:20:44 INFO NettyEventExecutor - NETTY EVENT: remove channel[ClientChannelInfo [channel=[id: 0x156658f3, L:/172.20.0.4:10911 - R:/172.20.0.1:41002], clientId=172.24.160.1@20988#75038411837400, language=JAVA, version=413, lastUpdateTimestamp=1712909924735]][172.20.0.1:41002] from ProducerManager groupChannelTable, producer group: xfg-group
+2024-04-12 16:20:44 INFO NettyEventExecutor - unregister a producer group[xfg-group] from groupChannelTable
+2024-04-12 16:20:44 INFO NettyEventExecutor - NETTY EVENT: remove channel[ClientChannelInfo [channel=[id: 0x156658f3, L:/172.20.0.4:10911 ! R:/172.20.0.1:41002], clientId=172.24.160.1@20988#75038411837400, language=JAVA, version=413, lastUpdateTimestamp=1712909924735]][172.20.0.1:41002] from ProducerManager groupChannelTable, producer group: CLIENT_INNER_PRODUCER
+2024-04-12 16:20:46 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-04-12 16:20:46 INFO brokerOutApi_thread_4 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 16:21:16 INFO brokerOutApi_thread_1 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 16:21:46 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-04-12 16:21:46 INFO brokerOutApi_thread_2 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 16:22:16 INFO brokerOutApi_thread_3 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 16:22:46 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-04-12 16:22:46 INFO brokerOutApi_thread_4 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 16:23:01 INFO HeartbeatThread_4 - new producer connected, group: xfg-group channel: ClientChannelInfo [channel=[id: 0x4f4714f3, L:/172.20.0.4:10911 - R:/172.20.0.1:58896], clientId=172.24.160.1@20988#75038411837400, language=JAVA, version=413, lastUpdateTimestamp=1712910181629]
+2024-04-12 16:23:01 INFO HeartbeatThread_4 - new producer connected, group: CLIENT_INNER_PRODUCER channel: ClientChannelInfo [channel=[id: 0x4f4714f3, L:/172.20.0.4:10911 - R:/172.20.0.1:58896], clientId=172.24.160.1@20988#75038411837400, language=JAVA, version=413, lastUpdateTimestamp=1712910181629]
+2024-04-12 16:23:16 INFO brokerOutApi_thread_1 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 16:23:46 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-04-12 16:23:46 INFO brokerOutApi_thread_2 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 16:23:51 INFO ClientManageThread_22 - unregister a producer[xfg-group] from groupChannelTable ClientChannelInfo [channel=[id: 0x4f4714f3, L:/172.20.0.4:10911 - R:/172.20.0.1:58896], clientId=172.24.160.1@20988#75038411837400, language=JAVA, version=413, lastUpdateTimestamp=1712910231730]
+2024-04-12 16:23:51 INFO ClientManageThread_22 - unregister a producer group[xfg-group] from groupChannelTable
+2024-04-12 16:23:51 INFO ClientManageThread_23 - unregister a producer[CLIENT_INNER_PRODUCER] from groupChannelTable ClientChannelInfo [channel=[id: 0x4f4714f3, L:/172.20.0.4:10911 - R:/172.20.0.1:58896], clientId=172.24.160.1@20988#75038411837400, language=JAVA, version=413, lastUpdateTimestamp=1712910231734]
+2024-04-12 16:23:58 INFO HeartbeatThread_5 - new producer connected, group: xfg-group channel: ClientChannelInfo [channel=[id: 0xdb9e815a, L:/172.20.0.4:10911 - R:/172.20.0.1:56520], clientId=172.24.160.1@10228#75592571616400, language=JAVA, version=413, lastUpdateTimestamp=1712910238915]
+2024-04-12 16:23:58 INFO HeartbeatThread_5 - new producer connected, group: CLIENT_INNER_PRODUCER channel: ClientChannelInfo [channel=[id: 0xdb9e815a, L:/172.20.0.4:10911 - R:/172.20.0.1:56520], clientId=172.24.160.1@10228#75592571616400, language=JAVA, version=413, lastUpdateTimestamp=1712910238915]
+2024-04-12 16:24:16 INFO brokerOutApi_thread_3 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 16:24:46 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-04-12 16:24:46 INFO brokerOutApi_thread_4 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 16:25:16 INFO brokerOutApi_thread_1 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 16:25:46 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-04-12 16:25:46 INFO brokerOutApi_thread_2 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 16:25:58 INFO NettyEventExecutor - NETTY EVENT: remove channel[ClientChannelInfo [channel=[id: 0xdb9e815a, L:/172.20.0.4:10911 ! R:/172.20.0.1:56520], clientId=172.24.160.1@10228#75592571616400, language=JAVA, version=413, lastUpdateTimestamp=1712910238915]][172.20.0.1:56520] from ProducerManager groupChannelTable, producer group: xfg-group
+2024-04-12 16:25:58 INFO NettyEventExecutor - unregister a producer group[xfg-group] from groupChannelTable
+2024-04-12 16:25:58 INFO NettyEventExecutor - NETTY EVENT: remove channel[ClientChannelInfo [channel=[id: 0xdb9e815a, L:/172.20.0.4:10911 ! R:/172.20.0.1:56520], clientId=172.24.160.1@10228#75592571616400, language=JAVA, version=413, lastUpdateTimestamp=1712910238915]][172.20.0.1:56520] from ProducerManager groupChannelTable, producer group: CLIENT_INNER_PRODUCER
+2024-04-12 16:26:16 INFO brokerOutApi_thread_3 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 16:26:46 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-04-12 16:26:46 INFO brokerOutApi_thread_4 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 16:27:16 INFO brokerOutApi_thread_1 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 16:27:46 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-04-12 16:27:46 INFO brokerOutApi_thread_2 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 16:28:16 INFO brokerOutApi_thread_3 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 16:28:22 INFO HeartbeatThread_12 - new producer connected, group: CLIENT_INNER_PRODUCER channel: ClientChannelInfo [channel=[id: 0x2479b0d2, L:/172.20.0.4:10911 - R:/172.20.0.1:59440], clientId=172.24.160.1@10228#75592571616400, language=JAVA, version=413, lastUpdateTimestamp=1712910502657]
+2024-04-12 16:28:22 INFO HeartbeatThread_12 - new producer connected, group: xfg-group channel: ClientChannelInfo [channel=[id: 0x2479b0d2, L:/172.20.0.4:10911 - R:/172.20.0.1:59440], clientId=172.24.160.1@10228#75592571616400, language=JAVA, version=413, lastUpdateTimestamp=1712910502657]
+2024-04-12 16:28:46 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-04-12 16:28:46 INFO brokerOutApi_thread_4 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 16:29:16 INFO brokerOutApi_thread_1 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 16:29:46 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-04-12 16:29:46 INFO brokerOutApi_thread_2 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 16:30:16 INFO brokerOutApi_thread_3 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 16:30:46 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-04-12 16:30:46 INFO brokerOutApi_thread_4 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 16:31:16 INFO brokerOutApi_thread_1 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 16:31:46 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-04-12 16:31:46 INFO brokerOutApi_thread_2 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 16:32:16 INFO brokerOutApi_thread_3 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 16:32:46 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-04-12 16:32:46 INFO brokerOutApi_thread_4 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 16:33:16 INFO brokerOutApi_thread_1 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 16:33:46 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-04-12 16:33:46 INFO brokerOutApi_thread_2 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 16:34:16 INFO brokerOutApi_thread_3 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 16:34:46 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-04-12 16:34:46 INFO brokerOutApi_thread_4 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 16:35:16 INFO brokerOutApi_thread_1 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 16:35:46 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-04-12 16:35:46 INFO brokerOutApi_thread_2 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 16:36:16 INFO brokerOutApi_thread_3 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 16:36:46 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-04-12 16:36:46 INFO brokerOutApi_thread_4 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 16:36:56 INFO ClientManageThread_24 - unregister a producer[xfg-group] from groupChannelTable ClientChannelInfo [channel=[id: 0x2479b0d2, L:/172.20.0.4:10911 - R:/172.20.0.1:59440], clientId=172.24.160.1@10228#75592571616400, language=JAVA, version=413, lastUpdateTimestamp=1712911016819]
+2024-04-12 16:36:56 INFO ClientManageThread_24 - unregister a producer group[xfg-group] from groupChannelTable
+2024-04-12 16:36:56 INFO ClientManageThread_25 - unregister a producer[CLIENT_INNER_PRODUCER] from groupChannelTable ClientChannelInfo [channel=[id: 0x2479b0d2, L:/172.20.0.4:10911 - R:/172.20.0.1:59440], clientId=172.24.160.1@10228#75592571616400, language=JAVA, version=413, lastUpdateTimestamp=1712911016830]
+2024-04-12 16:37:04 INFO HeartbeatThread_12 - new producer connected, group: xfg-group channel: ClientChannelInfo [channel=[id: 0x15b2a00c, L:/172.20.0.4:10911 - R:/172.20.0.1:41658], clientId=172.24.160.1@33100#76377805299000, language=JAVA, version=413, lastUpdateTimestamp=1712911024134]
+2024-04-12 16:37:04 INFO HeartbeatThread_12 - new producer connected, group: CLIENT_INNER_PRODUCER channel: ClientChannelInfo [channel=[id: 0x15b2a00c, L:/172.20.0.4:10911 - R:/172.20.0.1:41658], clientId=172.24.160.1@33100#76377805299000, language=JAVA, version=413, lastUpdateTimestamp=1712911024134]
+2024-04-12 16:37:16 INFO brokerOutApi_thread_1 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 16:37:46 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-04-12 16:37:46 INFO brokerOutApi_thread_2 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 16:38:16 INFO brokerOutApi_thread_3 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 16:38:46 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-04-12 16:38:46 INFO brokerOutApi_thread_4 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 16:39:16 INFO brokerOutApi_thread_1 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 16:39:46 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-04-12 16:39:46 INFO brokerOutApi_thread_2 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 16:40:16 INFO brokerOutApi_thread_3 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 16:40:46 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-04-12 16:40:46 INFO brokerOutApi_thread_4 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 16:41:16 INFO brokerOutApi_thread_1 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 16:41:46 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-04-12 16:41:46 INFO brokerOutApi_thread_2 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 16:42:16 INFO brokerOutApi_thread_3 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 16:42:36 INFO HeartbeatThread_10 - new producer connected, group: xfg-group channel: ClientChannelInfo [channel=[id: 0x92df0f62, L:/172.20.0.4:10911 - R:/172.20.0.1:38858], clientId=172.24.160.1@12268#76703839319900, language=JAVA, version=413, lastUpdateTimestamp=1712911356796]
+2024-04-12 16:42:36 INFO HeartbeatThread_10 - new producer connected, group: CLIENT_INNER_PRODUCER channel: ClientChannelInfo [channel=[id: 0x92df0f62, L:/172.20.0.4:10911 - R:/172.20.0.1:38858], clientId=172.24.160.1@12268#76703839319900, language=JAVA, version=413, lastUpdateTimestamp=1712911356796]
+2024-04-12 16:42:46 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-04-12 16:42:46 INFO brokerOutApi_thread_4 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 16:43:16 INFO brokerOutApi_thread_1 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 16:43:20 INFO ClientManageThread_28 - unregister a producer[xfg-group] from groupChannelTable ClientChannelInfo [channel=[id: 0x92df0f62, L:/172.20.0.4:10911 - R:/172.20.0.1:38858], clientId=172.24.160.1@12268#76703839319900, language=JAVA, version=413, lastUpdateTimestamp=1712911400124]
+2024-04-12 16:43:20 INFO ClientManageThread_29 - unregister a producer[CLIENT_INNER_PRODUCER] from groupChannelTable ClientChannelInfo [channel=[id: 0x92df0f62, L:/172.20.0.4:10911 - R:/172.20.0.1:38858], clientId=172.24.160.1@12268#76703839319900, language=JAVA, version=413, lastUpdateTimestamp=1712911400127]
+2024-04-12 16:43:46 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-04-12 16:43:46 INFO brokerOutApi_thread_2 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 16:44:07 INFO ClientManageThread_30 - unregister a producer[xfg-group] from groupChannelTable ClientChannelInfo [channel=[id: 0x15b2a00c, L:/172.20.0.4:10911 - R:/172.20.0.1:41658], clientId=172.24.160.1@33100#76377805299000, language=JAVA, version=413, lastUpdateTimestamp=1712911447150]
+2024-04-12 16:44:07 INFO ClientManageThread_30 - unregister a producer group[xfg-group] from groupChannelTable
+2024-04-12 16:44:07 INFO ClientManageThread_31 - unregister a producer[CLIENT_INNER_PRODUCER] from groupChannelTable ClientChannelInfo [channel=[id: 0x15b2a00c, L:/172.20.0.4:10911 - R:/172.20.0.1:41658], clientId=172.24.160.1@33100#76377805299000, language=JAVA, version=413, lastUpdateTimestamp=1712911447153]
+2024-04-12 16:44:12 INFO HeartbeatThread_9 - new producer connected, group: CLIENT_INNER_PRODUCER channel: ClientChannelInfo [channel=[id: 0x111fc102, L:/172.20.0.4:10911 - R:/172.20.0.1:60896], clientId=172.24.160.1@28892#76806295023700, language=JAVA, version=413, lastUpdateTimestamp=1712911452629]
+2024-04-12 16:44:12 INFO HeartbeatThread_9 - new producer connected, group: xfg-group channel: ClientChannelInfo [channel=[id: 0x111fc102, L:/172.20.0.4:10911 - R:/172.20.0.1:60896], clientId=172.24.160.1@28892#76806295023700, language=JAVA, version=413, lastUpdateTimestamp=1712911452629]
+2024-04-12 16:44:16 INFO brokerOutApi_thread_3 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 16:44:17 INFO ClientManageThread_32 - unregister a producer[xfg-group] from groupChannelTable ClientChannelInfo [channel=[id: 0x111fc102, L:/172.20.0.4:10911 - R:/172.20.0.1:60896], clientId=172.24.160.1@28892#76806295023700, language=JAVA, version=413, lastUpdateTimestamp=1712911457365]
+2024-04-12 16:44:17 INFO ClientManageThread_32 - unregister a producer group[xfg-group] from groupChannelTable
+2024-04-12 16:44:17 INFO ClientManageThread_1 - unregister a producer[CLIENT_INNER_PRODUCER] from groupChannelTable ClientChannelInfo [channel=[id: 0x111fc102, L:/172.20.0.4:10911 - R:/172.20.0.1:60896], clientId=172.24.160.1@28892#76806295023700, language=JAVA, version=413, lastUpdateTimestamp=1712911457370]
+2024-04-12 16:44:31 INFO HeartbeatThread_12 - new producer connected, group: CLIENT_INNER_PRODUCER channel: ClientChannelInfo [channel=[id: 0xd846122a, L:/172.20.0.4:10911 - R:/172.20.0.1:47126], clientId=172.24.160.1@11156#76822965462500, language=JAVA, version=413, lastUpdateTimestamp=1712911471932]
+2024-04-12 16:44:31 INFO HeartbeatThread_12 - new producer connected, group: xfg-group channel: ClientChannelInfo [channel=[id: 0xd846122a, L:/172.20.0.4:10911 - R:/172.20.0.1:47126], clientId=172.24.160.1@11156#76822965462500, language=JAVA, version=413, lastUpdateTimestamp=1712911471932]
+2024-04-12 16:44:37 INFO ClientManageThread_2 - unregister a producer[xfg-group] from groupChannelTable ClientChannelInfo [channel=[id: 0xd846122a, L:/172.20.0.4:10911 - R:/172.20.0.1:47126], clientId=172.24.160.1@11156#76822965462500, language=JAVA, version=413, lastUpdateTimestamp=1712911477349]
+2024-04-12 16:44:37 INFO ClientManageThread_2 - unregister a producer group[xfg-group] from groupChannelTable
+2024-04-12 16:44:37 INFO ClientManageThread_3 - unregister a producer[CLIENT_INNER_PRODUCER] from groupChannelTable ClientChannelInfo [channel=[id: 0xd846122a, L:/172.20.0.4:10911 - R:/172.20.0.1:47126], clientId=172.24.160.1@11156#76822965462500, language=JAVA, version=413, lastUpdateTimestamp=1712911477352]
+2024-04-12 16:44:46 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-04-12 16:44:46 INFO brokerOutApi_thread_4 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 16:45:09 INFO HeartbeatThread_3 - new producer connected, group: CLIENT_INNER_PRODUCER channel: ClientChannelInfo [channel=[id: 0x15fe7e8a, L:/172.20.0.4:10911 - R:/172.20.0.1:46532], clientId=172.24.160.1@29704#76862869948000, language=JAVA, version=413, lastUpdateTimestamp=1712911509200]
+2024-04-12 16:45:09 INFO NettyEventExecutor - NETTY EVENT: remove channel[ClientChannelInfo [channel=[id: 0x15fe7e8a, L:/172.20.0.4:10911 ! R:/172.20.0.1:46532], clientId=172.24.160.1@29704#76862869948000, language=JAVA, version=413, lastUpdateTimestamp=1712911509200]][172.20.0.1:46532] from ProducerManager groupChannelTable, producer group: CLIENT_INNER_PRODUCER
+2024-04-12 16:45:16 INFO brokerOutApi_thread_1 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 16:45:32 INFO HeartbeatThread_6 - new producer connected, group: xfg-group channel: ClientChannelInfo [channel=[id: 0xf7cce858, L:/172.20.0.4:10911 - R:/172.20.0.1:33704], clientId=172.24.160.1@17832#76886195110700, language=JAVA, version=413, lastUpdateTimestamp=1712911532525]
+2024-04-12 16:45:32 INFO HeartbeatThread_6 - new producer connected, group: CLIENT_INNER_PRODUCER channel: ClientChannelInfo [channel=[id: 0xf7cce858, L:/172.20.0.4:10911 - R:/172.20.0.1:33704], clientId=172.24.160.1@17832#76886195110700, language=JAVA, version=413, lastUpdateTimestamp=1712911532525]
+2024-04-12 16:45:46 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-04-12 16:45:46 INFO brokerOutApi_thread_2 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 16:46:16 INFO brokerOutApi_thread_3 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 16:46:46 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-04-12 16:46:46 INFO brokerOutApi_thread_4 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 16:47:16 INFO brokerOutApi_thread_1 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-04-12 16:47:46 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes

@@ -42,4 +42,8 @@
         limit 1
     </select>
 
+    <select id="querySkuIdByOrderId" parameterType="java.lang.String" resultType="java.lang.String">
+        SELECT sku_id FROM pay_order where order_id = #{orderId}
+    </select>
+
 </mapper>

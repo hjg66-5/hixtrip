@@ -1,5 +1,6 @@
 package com.hixtrip.sample;
 
+import com.hixtrip.sample.domain.order.repository.OrderRepository;
 import com.hixtrip.sample.infra.data.RedisUtils;
 import lombok.Setter;
 import lombok.extern.slf4j.Slf4j;
@@ -8,7 +9,6 @@ import org.junit.jupiter.api.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.messaging.support.MessageBuilder;
 import org.springframework.test.context.junit4.SpringRunner;
 
 @Slf4j
@@ -30,6 +30,15 @@ class SampleApplicationTests {
         String username = (String) redisUtils.get("username");
         System.out.println("username="+username);
     }
+    @Test
+    public void saveValue1() {
+        //存入Redis
+        redisUtils.set("1", 100);
+        System.out.println("保存成功！！！");
+        //根据key取出
+        String username = (String) redisUtils.get("1");
+        System.out.println("1="+username);
+    }
 
 
     @Test
@@ -39,7 +48,13 @@ class SampleApplicationTests {
             Thread.sleep(3000);
         }
     }
+    @Autowired
+    protected OrderRepository orderRepository;
 
+    @Test
+    void t1(){
+        String skuId = orderRepository.querySkuIdByOrderId("6774262830360164");
+    }
 
 
 }

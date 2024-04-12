@@ -1482,3 +1482,116 @@ io.netty.channel.StacklessClosedChannelException: null
 2024-04-12 15:12:33 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.20.0.1:42778]
 2024-04-12 15:12:49 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelRegistered 172.20.0.1:50422
 2024-04-12 15:12:49 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelActive, the channel[172.20.0.1:50422]
+2024-04-12 15:24:52 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelInactive, the channel[172.20.0.1:50422]
+2024-04-12 15:24:52 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.20.0.1:50422]
+2024-04-12 15:24:54 INFO NettyServerCodecThread_7 - NETTY SERVER PIPELINE: channelInactive, the channel[172.20.0.1:57322]
+2024-04-12 15:24:54 INFO NettyServerCodecThread_7 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.20.0.1:57322]
+2024-04-12 15:24:54 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelInactive, the channel[172.20.0.1:57350]
+2024-04-12 15:24:54 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.20.0.1:57350]
+2024-04-12 15:24:54 INFO NettyServerCodecThread_8 - NETTY SERVER PIPELINE: channelInactive, the channel[172.20.0.1:57338]
+2024-04-12 15:24:54 INFO NettyServerCodecThread_8 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.20.0.1:57338]
+2024-04-12 15:25:06 ERROR NettyServerNIOSelector_3_3 - Failed to write response[request code: 11, response code: 24, opaque: 5018] to channel[id: 0xa1ca7a8b, L:/172.20.0.4:10911 ! R:/172.20.0.1:57322]
+io.netty.channel.StacklessClosedChannelException: null
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(Object, ChannelPromise)(Unknown Source)
+2024-04-12 15:25:06 ERROR NettyServerNIOSelector_3_3 - Failed to write response[request code: 11, response code: 24, opaque: 5021] to channel[id: 0xa1ca7a8b, L:/172.20.0.4:10911 ! R:/172.20.0.1:57322]
+io.netty.channel.StacklessClosedChannelException: null
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(Object, ChannelPromise)(Unknown Source)
+2024-04-12 15:25:06 ERROR NettyServerNIOSelector_3_3 - Failed to write response[request code: 11, response code: 24, opaque: 5022] to channel[id: 0xa1ca7a8b, L:/172.20.0.4:10911 ! R:/172.20.0.1:57322]
+io.netty.channel.StacklessClosedChannelException: null
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(Object, ChannelPromise)(Unknown Source)
+2024-04-12 15:25:06 ERROR NettyServerNIOSelector_3_3 - Failed to write response[request code: 11, response code: 24, opaque: 5023] to channel[id: 0xa1ca7a8b, L:/172.20.0.4:10911 ! R:/172.20.0.1:57322]
+io.netty.channel.StacklessClosedChannelException: null
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(Object, ChannelPromise)(Unknown Source)
+2024-04-12 15:25:06 ERROR NettyServerNIOSelector_3_3 - Failed to write response[request code: 11, response code: 24, opaque: 5020] to channel[id: 0xa1ca7a8b, L:/172.20.0.4:10911 ! R:/172.20.0.1:57322]
+io.netty.channel.StacklessClosedChannelException: null
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(Object, ChannelPromise)(Unknown Source)
+2024-04-12 15:43:11 INFO NettyServerCodecThread_6 - NETTY SERVER PIPELINE: channelRegistered 172.20.0.1:57912
+2024-04-12 15:43:11 INFO NettyServerCodecThread_6 - NETTY SERVER PIPELINE: channelActive, the channel[172.20.0.1:57912]
+2024-04-12 15:43:11 INFO NettyServerCodecThread_6 - NETTY SERVER PIPELINE: channelInactive, the channel[172.20.0.1:57912]
+2024-04-12 15:43:11 INFO NettyServerCodecThread_6 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.20.0.1:57912]
+2024-04-12 15:43:39 INFO NettyServerCodecThread_7 - NETTY SERVER PIPELINE: channelRegistered 172.20.0.1:55294
+2024-04-12 15:43:39 INFO NettyServerCodecThread_7 - NETTY SERVER PIPELINE: channelActive, the channel[172.20.0.1:55294]
+2024-04-12 15:45:33 INFO NettyServerCodecThread_7 - NETTY SERVER PIPELINE: channelInactive, the channel[172.20.0.1:55294]
+2024-04-12 15:45:33 INFO NettyServerCodecThread_7 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.20.0.1:55294]
+2024-04-12 15:45:40 INFO NettyServerCodecThread_8 - NETTY SERVER PIPELINE: channelRegistered 172.20.0.1:36314
+2024-04-12 15:45:40 INFO NettyServerCodecThread_8 - NETTY SERVER PIPELINE: channelActive, the channel[172.20.0.1:36314]
+2024-04-12 15:46:02 INFO NettyServerCodecThread_8 - NETTY SERVER PIPELINE: channelInactive, the channel[172.20.0.1:36314]
+2024-04-12 15:46:02 INFO NettyServerCodecThread_8 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.20.0.1:36314]
+2024-04-12 15:46:08 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelRegistered 172.20.0.1:39096
+2024-04-12 15:46:08 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelActive, the channel[172.20.0.1:39096]
+2024-04-12 15:48:21 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelInactive, the channel[172.20.0.1:39096]
+2024-04-12 15:48:21 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.20.0.1:39096]
+2024-04-12 15:48:27 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelRegistered 172.20.0.1:53742
+2024-04-12 15:48:27 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelActive, the channel[172.20.0.1:53742]
+2024-04-12 15:51:27 WARN NettyServerCodecThread_2 - NETTY SERVER PIPELINE: IDLE exception [172.20.0.1:53742]
+2024-04-12 15:51:27 INFO NettyServerNIOSelector_3_2 - closeChannel: close the connection to remote address[172.20.0.1:53742] result: true
+2024-04-12 15:51:27 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelInactive, the channel[172.20.0.1:53742]
+2024-04-12 15:51:27 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.20.0.1:53742]
+2024-04-12 16:06:26 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelRegistered 172.20.0.1:60834
+2024-04-12 16:06:26 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelActive, the channel[172.20.0.1:60834]
+2024-04-12 16:06:26 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelInactive, the channel[172.20.0.1:60834]
+2024-04-12 16:06:26 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.20.0.1:60834]
+2024-04-12 16:06:33 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelRegistered 172.20.0.1:60842
+2024-04-12 16:06:33 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelActive, the channel[172.20.0.1:60842]
+2024-04-12 16:07:53 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelInactive, the channel[172.20.0.1:60842]
+2024-04-12 16:07:53 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.20.0.1:60842]
+2024-04-12 16:07:59 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelRegistered 172.20.0.1:50172
+2024-04-12 16:07:59 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelActive, the channel[172.20.0.1:50172]
+2024-04-12 16:09:19 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelInactive, the channel[172.20.0.1:50172]
+2024-04-12 16:09:19 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.20.0.1:50172]
+2024-04-12 16:09:25 INFO NettyServerCodecThread_6 - NETTY SERVER PIPELINE: channelRegistered 172.20.0.1:47650
+2024-04-12 16:09:25 INFO NettyServerCodecThread_6 - NETTY SERVER PIPELINE: channelActive, the channel[172.20.0.1:47650]
+2024-04-12 16:10:23 INFO NettyServerCodecThread_6 - NETTY SERVER PIPELINE: channelInactive, the channel[172.20.0.1:47650]
+2024-04-12 16:10:23 INFO NettyServerCodecThread_6 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.20.0.1:47650]
+2024-04-12 16:10:29 INFO NettyServerCodecThread_7 - NETTY SERVER PIPELINE: channelRegistered 172.20.0.1:54770
+2024-04-12 16:10:29 INFO NettyServerCodecThread_7 - NETTY SERVER PIPELINE: channelActive, the channel[172.20.0.1:54770]
+2024-04-12 16:11:34 INFO NettyServerCodecThread_7 - NETTY SERVER PIPELINE: channelInactive, the channel[172.20.0.1:54770]
+2024-04-12 16:11:34 INFO NettyServerCodecThread_7 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.20.0.1:54770]
+2024-04-12 16:11:40 INFO NettyServerCodecThread_8 - NETTY SERVER PIPELINE: channelRegistered 172.20.0.1:48626
+2024-04-12 16:11:40 INFO NettyServerCodecThread_8 - NETTY SERVER PIPELINE: channelActive, the channel[172.20.0.1:48626]
+2024-04-12 16:14:38 INFO NettyServerCodecThread_8 - NETTY SERVER PIPELINE: channelInactive, the channel[172.20.0.1:48626]
+2024-04-12 16:14:38 INFO NettyServerCodecThread_8 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.20.0.1:48626]
+2024-04-12 16:14:44 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelRegistered 172.20.0.1:41002
+2024-04-12 16:14:44 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelActive, the channel[172.20.0.1:41002]
+2024-04-12 16:20:44 WARN NettyServerCodecThread_1 - NETTY SERVER PIPELINE: IDLE exception [172.20.0.1:41002]
+2024-04-12 16:20:44 INFO NettyServerNIOSelector_3_3 - closeChannel: close the connection to remote address[172.20.0.1:41002] result: true
+2024-04-12 16:20:44 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelInactive, the channel[172.20.0.1:41002]
+2024-04-12 16:20:44 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.20.0.1:41002]
+2024-04-12 16:23:01 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelRegistered 172.20.0.1:58896
+2024-04-12 16:23:01 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelActive, the channel[172.20.0.1:58896]
+2024-04-12 16:23:51 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelInactive, the channel[172.20.0.1:58896]
+2024-04-12 16:23:51 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.20.0.1:58896]
+2024-04-12 16:23:58 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelRegistered 172.20.0.1:56520
+2024-04-12 16:23:58 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelActive, the channel[172.20.0.1:56520]
+2024-04-12 16:25:58 WARN NettyServerCodecThread_3 - NETTY SERVER PIPELINE: IDLE exception [172.20.0.1:56520]
+2024-04-12 16:25:58 INFO NettyServerNIOSelector_3_2 - closeChannel: close the connection to remote address[172.20.0.1:56520] result: true
+2024-04-12 16:25:58 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelInactive, the channel[172.20.0.1:56520]
+2024-04-12 16:25:58 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.20.0.1:56520]
+2024-04-12 16:28:22 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelRegistered 172.20.0.1:59440
+2024-04-12 16:28:22 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelActive, the channel[172.20.0.1:59440]
+2024-04-12 16:36:56 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelInactive, the channel[172.20.0.1:59440]
+2024-04-12 16:36:56 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.20.0.1:59440]
+2024-04-12 16:37:04 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelRegistered 172.20.0.1:41658
+2024-04-12 16:37:04 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelActive, the channel[172.20.0.1:41658]
+2024-04-12 16:41:47 INFO NettyServerCodecThread_6 - NETTY SERVER PIPELINE: channelRegistered 172.20.0.1:42382
+2024-04-12 16:41:47 INFO NettyServerCodecThread_6 - NETTY SERVER PIPELINE: channelActive, the channel[172.20.0.1:42382]
+2024-04-12 16:41:47 INFO NettyServerCodecThread_6 - NETTY SERVER PIPELINE: channelInactive, the channel[172.20.0.1:42382]
+2024-04-12 16:41:47 INFO NettyServerCodecThread_6 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.20.0.1:42382]
+2024-04-12 16:42:36 INFO NettyServerCodecThread_7 - NETTY SERVER PIPELINE: channelRegistered 172.20.0.1:38858
+2024-04-12 16:42:36 INFO NettyServerCodecThread_7 - NETTY SERVER PIPELINE: channelActive, the channel[172.20.0.1:38858]
+2024-04-12 16:43:20 INFO NettyServerCodecThread_7 - NETTY SERVER PIPELINE: channelInactive, the channel[172.20.0.1:38858]
+2024-04-12 16:43:20 INFO NettyServerCodecThread_7 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.20.0.1:38858]
+2024-04-12 16:44:07 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelInactive, the channel[172.20.0.1:41658]
+2024-04-12 16:44:07 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.20.0.1:41658]
+2024-04-12 16:44:12 INFO NettyServerCodecThread_8 - NETTY SERVER PIPELINE: channelRegistered 172.20.0.1:60896
+2024-04-12 16:44:12 INFO NettyServerCodecThread_8 - NETTY SERVER PIPELINE: channelActive, the channel[172.20.0.1:60896]
+2024-04-12 16:44:17 INFO NettyServerCodecThread_8 - NETTY SERVER PIPELINE: channelInactive, the channel[172.20.0.1:60896]
+2024-04-12 16:44:17 INFO NettyServerCodecThread_8 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.20.0.1:60896]
+2024-04-12 16:44:31 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelRegistered 172.20.0.1:47126
+2024-04-12 16:44:31 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelActive, the channel[172.20.0.1:47126]
+2024-04-12 16:44:37 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelInactive, the channel[172.20.0.1:47126]
+2024-04-12 16:44:37 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.20.0.1:47126]
+2024-04-12 16:45:09 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelRegistered 172.20.0.1:46532
+2024-04-12 16:45:09 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelActive, the channel[172.20.0.1:46532]
+2024-04-12 16:45:09 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelInactive, the channel[172.20.0.1:46532]
+2024-04-12 16:45:09 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.20.0.1:46532]

@@ -48,9 +48,9 @@ public class OrderRepositoryImpl implements OrderRepository {
         // 实际场景要从从数据库查询
         return Sample.builder()
                 .id(Long.valueOf(sampleCart.getSkuId()))
-                .name("小米VIP-SU7-文旅")
+                .name("小米VIP-SU7-文旅次数:"+sampleCart.getAmount())
                 .desc("666")
-                .price(new BigDecimal("1688"))
+                .price(new BigDecimal("1688").multiply(BigDecimal.valueOf(sampleCart.getAmount())))
                 .build();
     }
 
@@ -88,5 +88,10 @@ public class OrderRepositoryImpl implements OrderRepository {
         order.setOrderId(orderId);
         order.setStatus(OrderStatusVO.PAY_SUCCESS.getCode());
         payOrderMapper.changeOrderPaySuccess(order);
+    }
+
+    @Override
+    public String querySkuIdByOrderId(String orderId) {
+        return payOrderMapper.querySkuIdByOrderId(orderId);
     }
 }

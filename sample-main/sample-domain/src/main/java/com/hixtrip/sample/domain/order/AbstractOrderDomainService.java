@@ -40,7 +40,7 @@ public abstract class AbstractOrderDomainService implements IOrderDomainService{
                     .build();
         } else if (null != unpaidOrderEntity && OrderStatusVO.CREATE.equals(unpaidOrderEntity.getPayStatus())) {
             log.info("创建订单-存在，存在未创建支付单订单，创建支付单开始 userId:{} skuId:{} orderId:{}", sampleCart.getUserId(), sampleCart.getSkuId(), unpaidOrderEntity.getId());
-            CommandPay payOrderEntity = this.doPrepayOrder(sampleCart.getUserId(), sampleCart.getSkuId(), unpaidOrderEntity.getProductName(), unpaidOrderEntity.getId(), unpaidOrderEntity.getMoney());
+            CommandPay payOrderEntity = this.doPrepayOrder(sampleCart.getUserId(), sampleCart.getSkuId(), unpaidOrderEntity.getProductName(), unpaidOrderEntity.getId(), unpaidOrderEntity.getMoney(),sampleCart.getAmount());
             return CommandPay.builder()
                     .orderId(payOrderEntity.getOrderId())
                     .payUrl(payOrderEntity.getPayUrl())
@@ -67,7 +67,7 @@ public abstract class AbstractOrderDomainService implements IOrderDomainService{
 
 
         // 4. 创建支付单
-        CommandPay commandPay = this.doPrepayOrder(sampleCart.getUserId(), sampleCart.getSkuId(), sample.getName(), orderEntity.getId(), sample.getPrice());
+        CommandPay commandPay = this.doPrepayOrder(sampleCart.getUserId(), sampleCart.getSkuId(), sample.getName(), orderEntity.getId(), sample.getPrice(),sampleCart.getAmount());
         log.info("创建订单-完成，生成支付单。userId: {} orderId: {} payUrl: {}", sampleCart.getUserId(), orderEntity.getId(), commandPay.getPayUrl());
 
         return commandPay.builder()
@@ -94,6 +94,6 @@ public abstract class AbstractOrderDomainService implements IOrderDomainService{
      * @param totalAmount 支付金额
      * @return 预支付订单
      */
-    protected abstract CommandPay doPrepayOrder(String userId, String productId, String productName, String orderId, BigDecimal totalAmount) throws AlipayApiException;
+    protected abstract CommandPay doPrepayOrder(String userId, String productId, String productName, String orderId, BigDecimal totalAmount,Integer amount) throws AlipayApiException;
 
 }

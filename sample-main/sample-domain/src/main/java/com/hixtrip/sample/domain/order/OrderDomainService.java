@@ -34,7 +34,8 @@ public class OrderDomainService extends AbstractOrderDomainService{
     }
 
     @Override
-    protected CommandPay doPrepayOrder(String userId, String productId, String productName, String orderId, BigDecimal totalAmount) throws AlipayApiException {
+    protected CommandPay doPrepayOrder(String userId, String productId, String productName,
+                                       String orderId, BigDecimal totalAmount,Integer amount) throws AlipayApiException {
         AlipayTradePagePayRequest request = new AlipayTradePagePayRequest();
         request.setNotifyUrl(notifyUrl);
         request.setReturnUrl(returnUrl);
