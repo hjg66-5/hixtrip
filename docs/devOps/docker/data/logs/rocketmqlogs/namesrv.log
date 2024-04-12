@@ -22719,3 +22719,11 @@ io.netty.channel.StacklessClosedChannelException: null
 2024-04-12 15:23:02 INFO NSScanScheduledThread - start scanNotActiveBroker
 2024-04-12 15:23:07 INFO NSScanScheduledThread - start scanNotActiveBroker
 2024-04-12 15:23:12 INFO NSScanScheduledThread - start scanNotActiveBroker
+2024-04-12 15:23:17 INFO NSScanScheduledThread - start scanNotActiveBroker
+2024-04-12 15:23:22 INFO NSScanScheduledThread - start scanNotActiveBroker
+2024-04-12 15:23:23 WARN NettyClientWorkerThread_3 - NETTY CLIENT PIPELINE: IDLE exception [172.20.0.4:9876]
+2024-04-12 15:23:23 INFO NettyClientWorkerThread_3 - closeChannel: the channel[172.20.0.4:9876] was removed from channel table
+2024-04-12 15:23:23 INFO NettyClientWorkerThread_3 - NETTY CLIENT PIPELINE: CLOSE 172.20.0.4:9876
+2024-04-12 15:23:23 INFO NettyClientWorkerThread_3 - eventCloseChannel: the channel[null] has been removed from the channel table before
+2024-04-12 15:23:23 INFO NettyClientSelector_1 - closeChannel: close the connection to remote address[172.20.0.4:9876] result: true
+2024-04-12 15:23:23 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelInactive, the channel[172.20.0.4:58474]
