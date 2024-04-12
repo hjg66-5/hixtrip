@@ -1,3 +1,7 @@
+PS：用到支付宝沙箱、Redis、DDD、MYSQL、前端js
+DDD真的是好用！！！！爱了爱了
+
+
 # hixtrip
 
 ## 需求
