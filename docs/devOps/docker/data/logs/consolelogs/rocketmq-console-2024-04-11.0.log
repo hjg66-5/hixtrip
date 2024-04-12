@@ -1,0 +1,522 @@
+[2024-04-11 21:54:50.557]  INFO Starting App v1.0.0 on 94406fe27b6c with PID 138 (/home/app/console/rocketmq-console.jar started by app in /home/app/console)
+[2024-04-11 21:54:50.571]  INFO No active profile set, falling back to default profiles: default
+[2024-04-11 21:54:54.310]  INFO Tomcat initialized with port(s): 8080 (http)
+[2024-04-11 21:54:54.337]  INFO Initializing ProtocolHandler ["http-nio-0.0.0.0-8080"]
+[2024-04-11 21:54:54.341]  INFO Starting service [Tomcat]
+[2024-04-11 21:54:54.344]  INFO Starting Servlet engine: [Apache Tomcat/9.0.29]
+[2024-04-11 21:54:54.488]  INFO Initializing Spring embedded WebApplicationContext
+[2024-04-11 21:54:54.490]  INFO Root WebApplicationContext: initialization completed in 3688 ms
+[2024-04-11 21:54:56.119]  INFO configure file is ./store/users.properties
+[2024-04-11 21:54:56.153]  INFO Try to start service thread:FileWatchService started:false lastThread:null
+[2024-04-11 21:54:56.157]  INFO Succeed to start FileWatcherService
+[2024-04-11 21:54:56.157]  INFO FileWatchService service started
+[2024-04-11 21:54:57.836]  INFO Initializing ExecutorService 'applicationTaskExecutor'
+[2024-04-11 21:54:58.240]  INFO Adding welcome page: class path resource [static/index.html]
+[2024-04-11 21:54:58.841]  INFO Initializing ExecutorService 'taskScheduler'
+[2024-04-11 21:54:58.895]  INFO Exposing 2 endpoint(s) beneath base path '/actuator'
+[2024-04-11 21:54:59.055]  INFO Starting ProtocolHandler ["http-nio-0.0.0.0-8080"]
+[2024-04-11 21:54:59.111]  INFO Tomcat started on port(s): 8080 (http) with context path ''
+[2024-04-11 21:54:59.120]  INFO Started App in 9.72 seconds (JVM running for 10.868)
+[2024-04-11 21:55:00.434]  INFO Try to start service thread:PullMessageService started:false lastThread:null
+[2024-04-11 21:55:00.435]  INFO Try to start service thread:RebalanceService started:false lastThread:null
+[2024-04-11 21:55:00.444]  INFO create MQAdmin instance ClientConfig [namesrvAddr=rocketmq:9876, clientIP=172.22.0.3, instanceName=1712843700041, clientCallbackExecutorThreads=16, pollNameServerInterval=30000, heartbeatBrokerInterval=30000, persistConsumerOffsetInterval=5000, pullTimeDelayMillsWhenException=1000, unitMode=false, unitName=null, vipChannelEnabled=true, useTLS=false, language=JAVA, namespace=null] success.
+[2024-04-11 21:55:30.050]  INFO start time: 4.087 μs
+[2024-04-11 21:55:30.055]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 21:55:30.056]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 21:56:30.016]  INFO start time: 641.0 ns
+[2024-04-11 21:56:30.019]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 21:56:30.020]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 21:57:30.010]  INFO start time: 1.232 μs
+[2024-04-11 21:57:30.013]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 21:57:30.014]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 21:58:30.024]  INFO start time: 982.0 ns
+[2024-04-11 21:58:30.026]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 21:58:30.027]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 21:59:30.009]  INFO start time: 1.293 μs
+[2024-04-11 21:59:30.011]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 21:59:30.012]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 22:00:30.024]  INFO start time: 751.0 ns
+[2024-04-11 22:00:30.028]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 22:00:30.028]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 22:01:30.010]  INFO start time: 641.0 ns
+[2024-04-11 22:01:30.013]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 22:01:30.013]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 22:02:30.010]  INFO start time: 831.0 ns
+[2024-04-11 22:02:30.012]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 22:02:30.012]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 22:03:30.012]  INFO start time: 882.0 ns
+[2024-04-11 22:03:30.015]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 22:03:30.015]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 22:04:30.010]  INFO start time: 641.0 ns
+[2024-04-11 22:04:30.012]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 22:04:30.013]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 22:05:30.012]  INFO start time: 771.0 ns
+[2024-04-11 22:05:30.015]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 22:05:30.015]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 22:06:30.010]  INFO start time: 541.0 ns
+[2024-04-11 22:06:30.013]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 22:06:30.014]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 22:07:30.008]  INFO start time: 501.0 ns
+[2024-04-11 22:07:30.009]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 22:07:30.010]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 22:08:30.021]  INFO start time: 781.0 ns
+[2024-04-11 22:08:30.023]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 22:08:30.023]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 22:09:30.022]  INFO start time: 631.0 ns
+[2024-04-11 22:09:30.023]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 22:09:30.024]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 22:10:30.009]  INFO start time: 711.0 ns
+[2024-04-11 22:10:30.011]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 22:10:30.011]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 22:11:30.022]  INFO start time: 701.0 ns
+[2024-04-11 22:11:30.024]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 22:11:30.024]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 22:12:30.014]  INFO start time: 1.302 μs
+[2024-04-11 22:12:30.027]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 22:12:30.027]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 22:13:30.025]  INFO start time: 852.0 ns
+[2024-04-11 22:13:30.027]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 22:13:30.027]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 22:14:30.039]  INFO start time: 982.0 ns
+[2024-04-11 22:14:30.044]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 22:14:30.044]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 22:15:30.012]  INFO start time: 932.0 ns
+[2024-04-11 22:15:30.015]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 22:15:30.016]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 22:16:30.008]  INFO start time: 672.0 ns
+[2024-04-11 22:16:30.011]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 22:16:30.012]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 22:17:30.006]  INFO start time: 591.0 ns
+[2024-04-11 22:17:30.009]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 22:17:30.009]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 22:18:30.020]  INFO start time: 531.0 ns
+[2024-04-11 22:18:30.023]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 22:18:30.023]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 22:19:30.007]  INFO start time: 631.0 ns
+[2024-04-11 22:19:30.009]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 22:19:30.009]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 22:20:30.027]  INFO start time: 1.252 μs
+[2024-04-11 22:20:30.030]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 22:20:30.030]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 22:21:30.007]  INFO start time: 922.0 ns
+[2024-04-11 22:21:30.009]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 22:21:30.010]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 22:22:30.022]  INFO start time: 501.0 ns
+[2024-04-11 22:22:30.024]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 22:22:30.025]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 22:23:30.010]  INFO start time: 681.0 ns
+[2024-04-11 22:23:30.011]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 22:23:30.012]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 22:24:30.153]  INFO start time: 1.342 μs
+[2024-04-11 22:24:30.163]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 22:24:30.165]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 22:25:30.013]  INFO start time: 1.654 μs
+[2024-04-11 22:25:30.015]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 22:25:30.017]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 22:26:30.022]  INFO start time: 861.0 ns
+[2024-04-11 22:26:30.025]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 22:26:30.025]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 22:27:30.008]  INFO start time: 642.0 ns
+[2024-04-11 22:27:30.010]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 22:27:30.010]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 22:28:30.022]  INFO start time: 531.0 ns
+[2024-04-11 22:28:30.024]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 22:28:30.024]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 22:29:30.025]  INFO start time: 1.072 μs
+[2024-04-11 22:29:30.027]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 22:29:30.028]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 22:30:30.010]  INFO start time: 561.0 ns
+[2024-04-11 22:30:30.013]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 22:30:30.013]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 22:31:30.023]  INFO start time: 902.0 ns
+[2024-04-11 22:31:30.025]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 22:31:30.025]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 22:32:30.008]  INFO start time: 781.0 ns
+[2024-04-11 22:32:30.010]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 22:32:30.010]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 22:33:30.022]  INFO start time: 641.0 ns
+[2024-04-11 22:33:30.024]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 22:33:30.025]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 22:34:30.023]  INFO start time: 671.0 ns
+[2024-04-11 22:34:30.025]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 22:34:30.025]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 22:35:30.007]  INFO start time: 1.042 μs
+[2024-04-11 22:35:30.009]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 22:35:30.010]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 22:36:30.021]  INFO start time: 711.0 ns
+[2024-04-11 22:36:30.022]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 22:36:30.023]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 22:37:30.023]  INFO start time: 801.0 ns
+[2024-04-11 22:37:30.025]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 22:37:30.025]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 22:38:30.007]  INFO start time: 621.0 ns
+[2024-04-11 22:38:30.009]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 22:38:30.009]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 22:39:30.010]  INFO start time: 792.0 ns
+[2024-04-11 22:39:30.011]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 22:39:30.012]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 22:40:30.008]  INFO start time: 1.183 μs
+[2024-04-11 22:40:30.010]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 22:40:30.010]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 22:41:30.046]  INFO start time: 812.0 ns
+[2024-04-11 22:41:30.048]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 22:41:30.049]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 22:42:30.008]  INFO start time: 1.012 μs
+[2024-04-11 22:42:30.010]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 22:42:30.011]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 22:43:30.006]  INFO start time: 932.0 ns
+[2024-04-11 22:43:30.008]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 22:43:30.009]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 22:44:30.006]  INFO start time: 722.0 ns
+[2024-04-11 22:44:30.007]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 22:44:30.008]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 22:45:30.019]  INFO start time: 902.0 ns
+[2024-04-11 22:45:30.021]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 22:45:30.022]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 22:46:30.007]  INFO start time: 742.0 ns
+[2024-04-11 22:46:30.009]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 22:46:30.009]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 22:47:30.023]  INFO start time: 782.0 ns
+[2024-04-11 22:47:30.025]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 22:47:30.026]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 22:48:30.022]  INFO start time: 841.0 ns
+[2024-04-11 22:48:30.024]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 22:48:30.024]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 22:49:30.008]  INFO start time: 1.172 μs
+[2024-04-11 22:49:30.010]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 22:49:30.011]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 22:50:30.006]  INFO start time: 982.0 ns
+[2024-04-11 22:50:30.008]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 22:50:30.008]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 22:51:30.005]  INFO start time: 1.172 μs
+[2024-04-11 22:51:30.008]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 22:51:30.008]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 22:52:30.006]  INFO start time: 822.0 ns
+[2024-04-11 22:52:30.008]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 22:52:30.009]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 22:53:30.018]  INFO start time: 782.0 ns
+[2024-04-11 22:53:30.019]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 22:53:30.020]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 22:54:30.009]  INFO start time: 1.683 μs
+[2024-04-11 22:54:30.011]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 22:54:30.011]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 22:55:30.028]  INFO start time: 2.245 μs
+[2024-04-11 22:55:30.030]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 22:55:30.031]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 22:56:30.037]  INFO start time: 1.132 μs
+[2024-04-11 22:56:30.041]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 22:56:30.042]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 22:57:30.012]  INFO start time: 902.0 ns
+[2024-04-11 22:57:30.014]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 22:57:30.014]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 22:58:30.013]  INFO start time: 1.684 μs
+[2024-04-11 22:58:30.017]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 22:58:30.019]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 22:59:30.008]  INFO start time: 901.0 ns
+[2024-04-11 22:59:30.009]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 22:59:30.010]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 23:00:30.024]  INFO start time: 1.192 μs
+[2024-04-11 23:00:30.026]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 23:00:30.027]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 23:01:30.025]  INFO start time: 1.102 μs
+[2024-04-11 23:01:30.027]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 23:01:30.027]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 23:02:30.010]  INFO start time: 1.273 μs
+[2024-04-11 23:02:30.012]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 23:02:30.013]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 23:03:30.038]  INFO start time: 1.413 μs
+[2024-04-11 23:03:30.040]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 23:03:30.041]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 23:04:30.022]  INFO start time: 1.503 μs
+[2024-04-11 23:04:30.029]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 23:04:30.029]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 23:05:30.023]  INFO start time: 1.242 μs
+[2024-04-11 23:05:30.025]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 23:05:30.025]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 23:06:30.059]  INFO start time: 26.53 μs
+[2024-04-11 23:06:30.063]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 23:06:30.063]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 23:07:30.033]  INFO start time: 1.974 μs
+[2024-04-11 23:07:30.036]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 23:07:30.037]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 23:08:30.025]  INFO start time: 1.583 μs
+[2024-04-11 23:08:30.027]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 23:08:30.028]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 23:09:30.008]  INFO start time: 4.739 μs
+[2024-04-11 23:09:30.010]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 23:09:30.011]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 23:10:30.014]  INFO start time: 2.665 μs
+[2024-04-11 23:10:30.018]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 23:10:30.019]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 23:11:30.009]  INFO start time: 1.132 μs
+[2024-04-11 23:11:30.010]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 23:11:30.011]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 23:12:30.022]  INFO start time: 2.024 μs
+[2024-04-11 23:12:30.024]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 23:12:30.024]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 23:13:30.005]  INFO start time: 951.0 ns
+[2024-04-11 23:13:30.007]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 23:13:30.008]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 23:14:30.006]  INFO start time: 1.302 μs
+[2024-04-11 23:14:30.007]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 23:14:30.008]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 23:15:30.023]  INFO start time: 1.342 μs
+[2024-04-11 23:15:30.024]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 23:15:30.025]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 23:16:30.006]  INFO start time: 981.0 ns
+[2024-04-11 23:16:30.007]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 23:16:30.007]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 23:17:30.005]  INFO start time: 1.152 μs
+[2024-04-11 23:17:30.007]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 23:17:30.008]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 23:18:30.022]  INFO start time: 1.283 μs
+[2024-04-11 23:18:30.024]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 23:18:30.024]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 23:19:30.023]  INFO start time: 2.024 μs
+[2024-04-11 23:19:30.025]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 23:19:30.025]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 23:20:30.008]  INFO start time: 2.354 μs
+[2024-04-11 23:20:30.010]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 23:20:30.011]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 23:21:30.007]  INFO start time: 1.883 μs
+[2024-04-11 23:21:30.009]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 23:21:30.009]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 23:22:30.023]  INFO start time: 1.994 μs
+[2024-04-11 23:22:30.025]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 23:22:30.025]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 23:23:30.005]  INFO start time: 1.012 μs
+[2024-04-11 23:23:30.007]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 23:23:30.008]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 23:24:30.008]  INFO start time: 1.402 μs
+[2024-04-11 23:24:30.010]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 23:24:30.010]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 23:25:30.005]  INFO start time: 1.112 μs
+[2024-04-11 23:25:30.007]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 23:25:30.007]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 23:26:30.022]  INFO start time: 1.112 μs
+[2024-04-11 23:26:30.023]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 23:26:30.024]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 23:27:30.021]  INFO start time: 1.042 μs
+[2024-04-11 23:27:30.023]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 23:27:30.023]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 23:28:30.005]  INFO start time: 2.174 μs
+[2024-04-11 23:28:30.007]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 23:28:30.008]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 23:29:30.007]  INFO start time: 1.142 μs
+[2024-04-11 23:29:30.009]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 23:29:30.009]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 23:30:30.005]  INFO start time: 1.272 μs
+[2024-04-11 23:30:30.006]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 23:30:30.007]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 23:31:30.005]  INFO start time: 972.0 ns
+[2024-04-11 23:31:30.011]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 23:31:30.011]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 23:32:30.023]  INFO start time: 1.393 μs
+[2024-04-11 23:32:30.024]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 23:32:30.024]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 23:33:30.004]  INFO start time: 1.052 μs
+[2024-04-11 23:33:30.006]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 23:33:30.006]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 23:34:30.025]  INFO start time: 1.142 μs
+[2024-04-11 23:34:30.027]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 23:34:30.027]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 23:35:30.024]  INFO start time: 982.0 ns
+[2024-04-11 23:35:30.026]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 23:35:30.026]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 23:36:30.024]  INFO start time: 1.162 μs
+[2024-04-11 23:36:30.026]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 23:36:30.026]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 23:37:30.022]  INFO start time: 1.132 μs
+[2024-04-11 23:37:30.023]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 23:37:30.024]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 23:38:30.025]  INFO start time: 962.0 ns
+[2024-04-11 23:38:30.026]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 23:38:30.026]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 23:39:30.005]  INFO start time: 842.0 ns
+[2024-04-11 23:39:30.007]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 23:39:30.007]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 23:40:30.024]  INFO start time: 891.0 ns
+[2024-04-11 23:40:30.025]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 23:40:30.026]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 23:41:30.007]  INFO start time: 1.303 μs
+[2024-04-11 23:41:30.008]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 23:41:30.008]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 23:42:30.005]  INFO start time: 882.0 ns
+[2024-04-11 23:42:30.007]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 23:42:30.007]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 23:43:30.024]  INFO start time: 1.052 μs
+[2024-04-11 23:43:30.025]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 23:43:30.026]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 23:44:30.027]  INFO start time: 1.523 μs
+[2024-04-11 23:44:30.028]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 23:44:30.028]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 23:45:30.006]  INFO start time: 761.0 ns
+[2024-04-11 23:45:30.008]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 23:45:30.009]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 23:46:30.005]  INFO start time: 1.202 μs
+[2024-04-11 23:46:30.007]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 23:46:30.007]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 23:47:30.006]  INFO start time: 1.212 μs
+[2024-04-11 23:47:30.008]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 23:47:30.008]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 23:48:30.005]  INFO start time: 1.523 μs
+[2024-04-11 23:48:30.007]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 23:48:30.007]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 23:49:30.033]  INFO start time: 1.092 μs
+[2024-04-11 23:49:30.035]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 23:49:30.035]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 23:50:30.015]  INFO start time: 2.144 μs
+[2024-04-11 23:50:30.029]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 23:50:30.037]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 23:51:30.006]  INFO start time: 992.0 ns
+[2024-04-11 23:51:30.008]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 23:51:30.008]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 23:52:30.027]  INFO start time: 1.503 μs
+[2024-04-11 23:52:30.029]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 23:52:30.029]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 23:53:30.005]  INFO start time: 792.0 ns
+[2024-04-11 23:53:30.007]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 23:53:30.007]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 23:54:30.035]  INFO start time: 1.814 μs
+[2024-04-11 23:54:30.037]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 23:54:30.037]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 23:55:30.032]  INFO start time: 1.272 μs
+[2024-04-11 23:55:30.035]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 23:55:30.036]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 23:56:30.029]  INFO start time: 1.112 μs
+[2024-04-11 23:56:30.031]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 23:56:30.032]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 23:57:30.041]  INFO start time: 1.723 μs
+[2024-04-11 23:57:30.043]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 23:57:30.044]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 23:58:30.008]  INFO start time: 1.012 μs
+[2024-04-11 23:58:30.011]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 23:58:30.011]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
+[2024-04-11 23:59:30.008]  INFO start time: 1.373 μs
+[2024-04-11 23:59:30.010]  WARN Exception caught: mqAdminExt get broker stats data TOPIC_PUT_NUMS failed
+[2024-04-11 23:59:30.011]  WARN Response [CODE: 1  DESC: The stats <TOPIC_PUT_NUMS> <DefaultCluster_REPLY_TOPIC> not exist
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/] 
