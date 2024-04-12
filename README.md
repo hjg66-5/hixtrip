@@ -1,4 +1,4 @@
-PS：用到支付宝沙箱、Redis、DDD、MYSQL、前端js、docker、docker-compose
+PS：用到支付宝沙箱、Redis、DDD、MYSQL、前端js、docker、docker-compose、内网穿透
 
 DDD真的是好用！！！！爱了爱了。实现了初级&#x2714;，支付流程有使用模板模式，
 
