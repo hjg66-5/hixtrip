@@ -7123,3 +7123,4 @@ See https://rocketmq.apache.org/docs/bestPractice/06FAQ for further details., ex
 2024-04-12 15:20:46 INFO brokerOutApi_thread_4 - Registering current broker to name server completed. TargetHost=localhost:9876
 2024-04-12 15:21:16 INFO brokerOutApi_thread_1 - Registering current broker to name server completed. TargetHost=localhost:9876
 2024-04-12 15:21:46 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-04-12 15:21:46 INFO brokerOutApi_thread_2 - Registering current broker to name server completed. TargetHost=localhost:9876
