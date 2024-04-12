@@ -7,10 +7,12 @@ import com.hixtrip.sample.client.order.dto.CommandOderCreateDTO;
 import com.hixtrip.sample.domain.order.IOrderDomainService;
 import com.hixtrip.sample.domain.pay.model.CommandPay;
 import com.hixtrip.sample.domain.sample.model.SampleCart;
+import com.hixtrip.sample.infra.data.RocketMqUtils;
 import jakarta.servlet.http.HttpServletRequest;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.messaging.support.MessageBuilder;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
@@ -32,6 +34,9 @@ public class OrderController {
 
     @Autowired
     private IOrderDomainService orderService;
+
+    @Autowired
+    private RocketMqUtils rocketMqUtils;
 
     /**
      * todo 这是你要实现的接口
@@ -103,6 +108,8 @@ public class OrderController {
                     log.info("支付回调，支付回调，更新订单 {}", tradeNo);
                     // 更新订单未已支付
                     orderService.orderPaySuccess(tradeNo);
+                    // 异步扣减商品库存
+                    rocketMqUtils.asyncSend("PERSON_ADD", MessageBuilder.withPayload(tradeNo).build());
                 }
             }
             return "success";

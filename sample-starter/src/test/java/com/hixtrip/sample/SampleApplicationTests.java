@@ -1,17 +1,23 @@
 package com.hixtrip.sample;
 
 import com.hixtrip.sample.infra.data.RedisUtils;
+import com.hixtrip.sample.infra.data.RocketMqUtils;
 import jakarta.annotation.Resource;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.messaging.support.MessageBuilder;
 
 @SpringBootTest
 class SampleApplicationTests {
 
+    @Autowired
+    private RocketMqUtils rocketMqUtils;
 
     @Test
     void contextLoads() {
+        String tradeNo = "6280946530414790";
+        rocketMqUtils.asyncSend("PERSON_ADD", MessageBuilder.withPayload(tradeNo).build());
     }
 
     @Autowired
