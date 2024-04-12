@@ -1595,3 +1595,5 @@ io.netty.channel.StacklessClosedChannelException: null
 2024-04-12 16:45:09 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelActive, the channel[172.20.0.1:46532]
 2024-04-12 16:45:09 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelInactive, the channel[172.20.0.1:46532]
 2024-04-12 16:45:09 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.20.0.1:46532]
+2024-04-12 16:45:32 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelRegistered 172.20.0.1:33704
+2024-04-12 16:45:32 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelActive, the channel[172.20.0.1:33704]

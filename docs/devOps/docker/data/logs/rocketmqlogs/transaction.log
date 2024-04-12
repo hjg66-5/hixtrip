@@ -10018,3 +10018,142 @@
 2024-04-12 16:47:37 WARN TransactionalMessageCheckService - No new message. GetMessageStatus=NO_MESSAGE_IN_QUEUE, topic=RMQ_SYS_TRANS_OP_HALF_TOPIC, groupId=CID_RMQ_SYS_TRANS, requestOffset=0
 2024-04-12 16:47:37 WARN TransactionalMessageCheckService - The miss op offset=0 in queue=MessageQueue [topic=RMQ_SYS_TRANS_OP_HALF_TOPIC, brokerName=broker-a, queueId=0] is NO_NEW_MSG, pullResult=PullResult [pullStatus=NO_NEW_MSG, nextBeginOffset=0, minOffset=0, maxOffset=0, msgFoundList=0]
 2024-04-12 16:47:37 WARN TransactionalMessageCheckService - No new message. GetMessageStatus=NO_MESSAGE_IN_QUEUE, topic=RMQ_SYS_TRANS_HALF_TOPIC, groupId=CID_RMQ_SYS_TRANS, requestOffset=0
+2024-04-12 16:47:37 WARN TransactionalMessageCheckService - No new message. GetMessageStatus=NO_MESSAGE_IN_QUEUE, topic=RMQ_SYS_TRANS_HALF_TOPIC, groupId=CID_RMQ_SYS_TRANS, requestOffset=0
+2024-04-12 16:47:37 WARN TransactionalMessageCheckService - No new message. GetMessageStatus=NO_MESSAGE_IN_QUEUE, topic=RMQ_SYS_TRANS_OP_HALF_TOPIC, groupId=CID_RMQ_SYS_TRANS, requestOffset=0
+2024-04-12 16:47:37 INFO TransactionalMessageCheckService - After check, MessageQueue [topic=RMQ_SYS_TRANS_HALF_TOPIC, brokerName=broker-a, queueId=0] opOffset=0 opOffsetDiff=0 msgOffset=0 msgOffsetDiff=0 msgTime=Fri Apr 12 16:47:37 CST 2024 msgTimeDelayInMs=0 putInQueueCount=0
+2024-04-12 16:47:37 INFO TransactionalMessageCheckService - End to check prepare message, consumed time:5
+2024-04-12 16:48:37 INFO TransactionalMessageCheckService - Begin to check prepare message, begin time:1712911717252
+2024-04-12 16:48:37 INFO TransactionalMessageCheckService - Before check, the queue=MessageQueue [topic=RMQ_SYS_TRANS_HALF_TOPIC, brokerName=broker-a, queueId=0] msgOffset=0 opOffset=0
+2024-04-12 16:48:37 WARN TransactionalMessageCheckService - No new message. GetMessageStatus=NO_MESSAGE_IN_QUEUE, topic=RMQ_SYS_TRANS_OP_HALF_TOPIC, groupId=CID_RMQ_SYS_TRANS, requestOffset=0
+2024-04-12 16:48:37 WARN TransactionalMessageCheckService - The miss op offset=0 in queue=MessageQueue [topic=RMQ_SYS_TRANS_OP_HALF_TOPIC, brokerName=broker-a, queueId=0] is NO_NEW_MSG, pullResult=PullResult [pullStatus=NO_NEW_MSG, nextBeginOffset=0, minOffset=0, maxOffset=0, msgFoundList=0]
+2024-04-12 16:48:37 WARN TransactionalMessageCheckService - No new message. GetMessageStatus=NO_MESSAGE_IN_QUEUE, topic=RMQ_SYS_TRANS_HALF_TOPIC, groupId=CID_RMQ_SYS_TRANS, requestOffset=0
+2024-04-12 16:48:37 WARN TransactionalMessageCheckService - No new message. GetMessageStatus=NO_MESSAGE_IN_QUEUE, topic=RMQ_SYS_TRANS_HALF_TOPIC, groupId=CID_RMQ_SYS_TRANS, requestOffset=0
+2024-04-12 16:48:37 WARN TransactionalMessageCheckService - No new message. GetMessageStatus=NO_MESSAGE_IN_QUEUE, topic=RMQ_SYS_TRANS_OP_HALF_TOPIC, groupId=CID_RMQ_SYS_TRANS, requestOffset=0
+2024-04-12 16:48:37 INFO TransactionalMessageCheckService - After check, MessageQueue [topic=RMQ_SYS_TRANS_HALF_TOPIC, brokerName=broker-a, queueId=0] opOffset=0 opOffsetDiff=0 msgOffset=0 msgOffsetDiff=0 msgTime=Fri Apr 12 16:48:37 CST 2024 msgTimeDelayInMs=0 putInQueueCount=0
+2024-04-12 16:48:37 INFO TransactionalMessageCheckService - End to check prepare message, consumed time:2
+2024-04-12 16:49:37 INFO TransactionalMessageCheckService - Begin to check prepare message, begin time:1712911777255
+2024-04-12 16:49:37 INFO TransactionalMessageCheckService - Before check, the queue=MessageQueue [topic=RMQ_SYS_TRANS_HALF_TOPIC, brokerName=broker-a, queueId=0] msgOffset=0 opOffset=0
+2024-04-12 16:49:37 WARN TransactionalMessageCheckService - No new message. GetMessageStatus=NO_MESSAGE_IN_QUEUE, topic=RMQ_SYS_TRANS_OP_HALF_TOPIC, groupId=CID_RMQ_SYS_TRANS, requestOffset=0
+2024-04-12 16:49:37 WARN TransactionalMessageCheckService - The miss op offset=0 in queue=MessageQueue [topic=RMQ_SYS_TRANS_OP_HALF_TOPIC, brokerName=broker-a, queueId=0] is NO_NEW_MSG, pullResult=PullResult [pullStatus=NO_NEW_MSG, nextBeginOffset=0, minOffset=0, maxOffset=0, msgFoundList=0]
+2024-04-12 16:49:37 WARN TransactionalMessageCheckService - No new message. GetMessageStatus=NO_MESSAGE_IN_QUEUE, topic=RMQ_SYS_TRANS_HALF_TOPIC, groupId=CID_RMQ_SYS_TRANS, requestOffset=0
+2024-04-12 16:49:37 WARN TransactionalMessageCheckService - No new message. GetMessageStatus=NO_MESSAGE_IN_QUEUE, topic=RMQ_SYS_TRANS_HALF_TOPIC, groupId=CID_RMQ_SYS_TRANS, requestOffset=0
+2024-04-12 16:49:37 WARN TransactionalMessageCheckService - No new message. GetMessageStatus=NO_MESSAGE_IN_QUEUE, topic=RMQ_SYS_TRANS_OP_HALF_TOPIC, groupId=CID_RMQ_SYS_TRANS, requestOffset=0
+2024-04-12 16:49:37 INFO TransactionalMessageCheckService - After check, MessageQueue [topic=RMQ_SYS_TRANS_HALF_TOPIC, brokerName=broker-a, queueId=0] opOffset=0 opOffsetDiff=0 msgOffset=0 msgOffsetDiff=0 msgTime=Fri Apr 12 16:49:37 CST 2024 msgTimeDelayInMs=0 putInQueueCount=0
+2024-04-12 16:49:37 INFO TransactionalMessageCheckService - End to check prepare message, consumed time:1
+2024-04-12 16:50:37 INFO TransactionalMessageCheckService - Begin to check prepare message, begin time:1712911837256
+2024-04-12 16:50:37 INFO TransactionalMessageCheckService - Before check, the queue=MessageQueue [topic=RMQ_SYS_TRANS_HALF_TOPIC, brokerName=broker-a, queueId=0] msgOffset=0 opOffset=0
+2024-04-12 16:50:37 WARN TransactionalMessageCheckService - No new message. GetMessageStatus=NO_MESSAGE_IN_QUEUE, topic=RMQ_SYS_TRANS_OP_HALF_TOPIC, groupId=CID_RMQ_SYS_TRANS, requestOffset=0
+2024-04-12 16:50:37 WARN TransactionalMessageCheckService - The miss op offset=0 in queue=MessageQueue [topic=RMQ_SYS_TRANS_OP_HALF_TOPIC, brokerName=broker-a, queueId=0] is NO_NEW_MSG, pullResult=PullResult [pullStatus=NO_NEW_MSG, nextBeginOffset=0, minOffset=0, maxOffset=0, msgFoundList=0]
+2024-04-12 16:50:37 WARN TransactionalMessageCheckService - No new message. GetMessageStatus=NO_MESSAGE_IN_QUEUE, topic=RMQ_SYS_TRANS_HALF_TOPIC, groupId=CID_RMQ_SYS_TRANS, requestOffset=0
+2024-04-12 16:50:37 WARN TransactionalMessageCheckService - No new message. GetMessageStatus=NO_MESSAGE_IN_QUEUE, topic=RMQ_SYS_TRANS_HALF_TOPIC, groupId=CID_RMQ_SYS_TRANS, requestOffset=0
+2024-04-12 16:50:37 WARN TransactionalMessageCheckService - No new message. GetMessageStatus=NO_MESSAGE_IN_QUEUE, topic=RMQ_SYS_TRANS_OP_HALF_TOPIC, groupId=CID_RMQ_SYS_TRANS, requestOffset=0
+2024-04-12 16:50:37 INFO TransactionalMessageCheckService - After check, MessageQueue [topic=RMQ_SYS_TRANS_HALF_TOPIC, brokerName=broker-a, queueId=0] opOffset=0 opOffsetDiff=0 msgOffset=0 msgOffsetDiff=0 msgTime=Fri Apr 12 16:50:37 CST 2024 msgTimeDelayInMs=0 putInQueueCount=0
+2024-04-12 16:50:37 INFO TransactionalMessageCheckService - End to check prepare message, consumed time:1
+2024-04-12 16:51:37 INFO TransactionalMessageCheckService - Begin to check prepare message, begin time:1712911897257
+2024-04-12 16:51:37 INFO TransactionalMessageCheckService - Before check, the queue=MessageQueue [topic=RMQ_SYS_TRANS_HALF_TOPIC, brokerName=broker-a, queueId=0] msgOffset=0 opOffset=0
+2024-04-12 16:51:37 WARN TransactionalMessageCheckService - No new message. GetMessageStatus=NO_MESSAGE_IN_QUEUE, topic=RMQ_SYS_TRANS_OP_HALF_TOPIC, groupId=CID_RMQ_SYS_TRANS, requestOffset=0
+2024-04-12 16:51:37 WARN TransactionalMessageCheckService - The miss op offset=0 in queue=MessageQueue [topic=RMQ_SYS_TRANS_OP_HALF_TOPIC, brokerName=broker-a, queueId=0] is NO_NEW_MSG, pullResult=PullResult [pullStatus=NO_NEW_MSG, nextBeginOffset=0, minOffset=0, maxOffset=0, msgFoundList=0]
+2024-04-12 16:51:37 WARN TransactionalMessageCheckService - No new message. GetMessageStatus=NO_MESSAGE_IN_QUEUE, topic=RMQ_SYS_TRANS_HALF_TOPIC, groupId=CID_RMQ_SYS_TRANS, requestOffset=0
+2024-04-12 16:51:37 WARN TransactionalMessageCheckService - No new message. GetMessageStatus=NO_MESSAGE_IN_QUEUE, topic=RMQ_SYS_TRANS_HALF_TOPIC, groupId=CID_RMQ_SYS_TRANS, requestOffset=0
+2024-04-12 16:51:37 WARN TransactionalMessageCheckService - No new message. GetMessageStatus=NO_MESSAGE_IN_QUEUE, topic=RMQ_SYS_TRANS_OP_HALF_TOPIC, groupId=CID_RMQ_SYS_TRANS, requestOffset=0
+2024-04-12 16:51:37 INFO TransactionalMessageCheckService - After check, MessageQueue [topic=RMQ_SYS_TRANS_HALF_TOPIC, brokerName=broker-a, queueId=0] opOffset=0 opOffsetDiff=0 msgOffset=0 msgOffsetDiff=0 msgTime=Fri Apr 12 16:51:37 CST 2024 msgTimeDelayInMs=0 putInQueueCount=0
+2024-04-12 16:51:37 INFO TransactionalMessageCheckService - End to check prepare message, consumed time:2
+2024-04-12 16:52:37 INFO TransactionalMessageCheckService - Begin to check prepare message, begin time:1712911957259
+2024-04-12 16:52:37 INFO TransactionalMessageCheckService - Before check, the queue=MessageQueue [topic=RMQ_SYS_TRANS_HALF_TOPIC, brokerName=broker-a, queueId=0] msgOffset=0 opOffset=0
+2024-04-12 16:52:37 WARN TransactionalMessageCheckService - No new message. GetMessageStatus=NO_MESSAGE_IN_QUEUE, topic=RMQ_SYS_TRANS_OP_HALF_TOPIC, groupId=CID_RMQ_SYS_TRANS, requestOffset=0
+2024-04-12 16:52:37 WARN TransactionalMessageCheckService - The miss op offset=0 in queue=MessageQueue [topic=RMQ_SYS_TRANS_OP_HALF_TOPIC, brokerName=broker-a, queueId=0] is NO_NEW_MSG, pullResult=PullResult [pullStatus=NO_NEW_MSG, nextBeginOffset=0, minOffset=0, maxOffset=0, msgFoundList=0]
+2024-04-12 16:52:37 WARN TransactionalMessageCheckService - No new message. GetMessageStatus=NO_MESSAGE_IN_QUEUE, topic=RMQ_SYS_TRANS_HALF_TOPIC, groupId=CID_RMQ_SYS_TRANS, requestOffset=0
+2024-04-12 16:52:37 WARN TransactionalMessageCheckService - No new message. GetMessageStatus=NO_MESSAGE_IN_QUEUE, topic=RMQ_SYS_TRANS_HALF_TOPIC, groupId=CID_RMQ_SYS_TRANS, requestOffset=0
+2024-04-12 16:52:37 WARN TransactionalMessageCheckService - No new message. GetMessageStatus=NO_MESSAGE_IN_QUEUE, topic=RMQ_SYS_TRANS_OP_HALF_TOPIC, groupId=CID_RMQ_SYS_TRANS, requestOffset=0
+2024-04-12 16:52:37 INFO TransactionalMessageCheckService - After check, MessageQueue [topic=RMQ_SYS_TRANS_HALF_TOPIC, brokerName=broker-a, queueId=0] opOffset=0 opOffsetDiff=0 msgOffset=0 msgOffsetDiff=0 msgTime=Fri Apr 12 16:52:37 CST 2024 msgTimeDelayInMs=0 putInQueueCount=0
+2024-04-12 16:52:37 INFO TransactionalMessageCheckService - End to check prepare message, consumed time:2
+2024-04-12 16:53:37 INFO TransactionalMessageCheckService - Begin to check prepare message, begin time:1712912017261
+2024-04-12 16:53:37 INFO TransactionalMessageCheckService - Before check, the queue=MessageQueue [topic=RMQ_SYS_TRANS_HALF_TOPIC, brokerName=broker-a, queueId=0] msgOffset=0 opOffset=0
+2024-04-12 16:53:37 WARN TransactionalMessageCheckService - No new message. GetMessageStatus=NO_MESSAGE_IN_QUEUE, topic=RMQ_SYS_TRANS_OP_HALF_TOPIC, groupId=CID_RMQ_SYS_TRANS, requestOffset=0
+2024-04-12 16:53:37 WARN TransactionalMessageCheckService - The miss op offset=0 in queue=MessageQueue [topic=RMQ_SYS_TRANS_OP_HALF_TOPIC, brokerName=broker-a, queueId=0] is NO_NEW_MSG, pullResult=PullResult [pullStatus=NO_NEW_MSG, nextBeginOffset=0, minOffset=0, maxOffset=0, msgFoundList=0]
+2024-04-12 16:53:37 WARN TransactionalMessageCheckService - No new message. GetMessageStatus=NO_MESSAGE_IN_QUEUE, topic=RMQ_SYS_TRANS_HALF_TOPIC, groupId=CID_RMQ_SYS_TRANS, requestOffset=0
+2024-04-12 16:53:37 WARN TransactionalMessageCheckService - No new message. GetMessageStatus=NO_MESSAGE_IN_QUEUE, topic=RMQ_SYS_TRANS_HALF_TOPIC, groupId=CID_RMQ_SYS_TRANS, requestOffset=0
+2024-04-12 16:53:37 WARN TransactionalMessageCheckService - No new message. GetMessageStatus=NO_MESSAGE_IN_QUEUE, topic=RMQ_SYS_TRANS_OP_HALF_TOPIC, groupId=CID_RMQ_SYS_TRANS, requestOffset=0
+2024-04-12 16:53:37 INFO TransactionalMessageCheckService - After check, MessageQueue [topic=RMQ_SYS_TRANS_HALF_TOPIC, brokerName=broker-a, queueId=0] opOffset=0 opOffsetDiff=0 msgOffset=0 msgOffsetDiff=0 msgTime=Fri Apr 12 16:53:37 CST 2024 msgTimeDelayInMs=0 putInQueueCount=0
+2024-04-12 16:53:37 INFO TransactionalMessageCheckService - End to check prepare message, consumed time:5
+2024-04-12 16:54:37 INFO TransactionalMessageCheckService - Begin to check prepare message, begin time:1712912077266
+2024-04-12 16:54:37 INFO TransactionalMessageCheckService - Before check, the queue=MessageQueue [topic=RMQ_SYS_TRANS_HALF_TOPIC, brokerName=broker-a, queueId=0] msgOffset=0 opOffset=0
+2024-04-12 16:54:37 WARN TransactionalMessageCheckService - No new message. GetMessageStatus=NO_MESSAGE_IN_QUEUE, topic=RMQ_SYS_TRANS_OP_HALF_TOPIC, groupId=CID_RMQ_SYS_TRANS, requestOffset=0
+2024-04-12 16:54:37 WARN TransactionalMessageCheckService - The miss op offset=0 in queue=MessageQueue [topic=RMQ_SYS_TRANS_OP_HALF_TOPIC, brokerName=broker-a, queueId=0] is NO_NEW_MSG, pullResult=PullResult [pullStatus=NO_NEW_MSG, nextBeginOffset=0, minOffset=0, maxOffset=0, msgFoundList=0]
+2024-04-12 16:54:37 WARN TransactionalMessageCheckService - No new message. GetMessageStatus=NO_MESSAGE_IN_QUEUE, topic=RMQ_SYS_TRANS_HALF_TOPIC, groupId=CID_RMQ_SYS_TRANS, requestOffset=0
+2024-04-12 16:54:37 WARN TransactionalMessageCheckService - No new message. GetMessageStatus=NO_MESSAGE_IN_QUEUE, topic=RMQ_SYS_TRANS_HALF_TOPIC, groupId=CID_RMQ_SYS_TRANS, requestOffset=0
+2024-04-12 16:54:37 WARN TransactionalMessageCheckService - No new message. GetMessageStatus=NO_MESSAGE_IN_QUEUE, topic=RMQ_SYS_TRANS_OP_HALF_TOPIC, groupId=CID_RMQ_SYS_TRANS, requestOffset=0
+2024-04-12 16:54:37 INFO TransactionalMessageCheckService - After check, MessageQueue [topic=RMQ_SYS_TRANS_HALF_TOPIC, brokerName=broker-a, queueId=0] opOffset=0 opOffsetDiff=0 msgOffset=0 msgOffsetDiff=0 msgTime=Fri Apr 12 16:54:37 CST 2024 msgTimeDelayInMs=0 putInQueueCount=0
+2024-04-12 16:54:37 INFO TransactionalMessageCheckService - End to check prepare message, consumed time:6
+2024-04-12 16:55:37 INFO TransactionalMessageCheckService - Begin to check prepare message, begin time:1712912137272
+2024-04-12 16:55:37 INFO TransactionalMessageCheckService - Before check, the queue=MessageQueue [topic=RMQ_SYS_TRANS_HALF_TOPIC, brokerName=broker-a, queueId=0] msgOffset=0 opOffset=0
+2024-04-12 16:55:37 WARN TransactionalMessageCheckService - No new message. GetMessageStatus=NO_MESSAGE_IN_QUEUE, topic=RMQ_SYS_TRANS_OP_HALF_TOPIC, groupId=CID_RMQ_SYS_TRANS, requestOffset=0
+2024-04-12 16:55:37 WARN TransactionalMessageCheckService - The miss op offset=0 in queue=MessageQueue [topic=RMQ_SYS_TRANS_OP_HALF_TOPIC, brokerName=broker-a, queueId=0] is NO_NEW_MSG, pullResult=PullResult [pullStatus=NO_NEW_MSG, nextBeginOffset=0, minOffset=0, maxOffset=0, msgFoundList=0]
+2024-04-12 16:55:37 WARN TransactionalMessageCheckService - No new message. GetMessageStatus=NO_MESSAGE_IN_QUEUE, topic=RMQ_SYS_TRANS_HALF_TOPIC, groupId=CID_RMQ_SYS_TRANS, requestOffset=0
+2024-04-12 16:55:37 WARN TransactionalMessageCheckService - No new message. GetMessageStatus=NO_MESSAGE_IN_QUEUE, topic=RMQ_SYS_TRANS_HALF_TOPIC, groupId=CID_RMQ_SYS_TRANS, requestOffset=0
+2024-04-12 16:55:37 WARN TransactionalMessageCheckService - No new message. GetMessageStatus=NO_MESSAGE_IN_QUEUE, topic=RMQ_SYS_TRANS_OP_HALF_TOPIC, groupId=CID_RMQ_SYS_TRANS, requestOffset=0
+2024-04-12 16:55:37 INFO TransactionalMessageCheckService - After check, MessageQueue [topic=RMQ_SYS_TRANS_HALF_TOPIC, brokerName=broker-a, queueId=0] opOffset=0 opOffsetDiff=0 msgOffset=0 msgOffsetDiff=0 msgTime=Fri Apr 12 16:55:37 CST 2024 msgTimeDelayInMs=0 putInQueueCount=0
+2024-04-12 16:55:37 INFO TransactionalMessageCheckService - End to check prepare message, consumed time:5
+2024-04-12 16:56:37 INFO TransactionalMessageCheckService - Begin to check prepare message, begin time:1712912197277
+2024-04-12 16:56:37 INFO TransactionalMessageCheckService - Before check, the queue=MessageQueue [topic=RMQ_SYS_TRANS_HALF_TOPIC, brokerName=broker-a, queueId=0] msgOffset=0 opOffset=0
+2024-04-12 16:56:37 WARN TransactionalMessageCheckService - No new message. GetMessageStatus=NO_MESSAGE_IN_QUEUE, topic=RMQ_SYS_TRANS_OP_HALF_TOPIC, groupId=CID_RMQ_SYS_TRANS, requestOffset=0
+2024-04-12 16:56:37 WARN TransactionalMessageCheckService - The miss op offset=0 in queue=MessageQueue [topic=RMQ_SYS_TRANS_OP_HALF_TOPIC, brokerName=broker-a, queueId=0] is NO_NEW_MSG, pullResult=PullResult [pullStatus=NO_NEW_MSG, nextBeginOffset=0, minOffset=0, maxOffset=0, msgFoundList=0]
+2024-04-12 16:56:37 WARN TransactionalMessageCheckService - No new message. GetMessageStatus=NO_MESSAGE_IN_QUEUE, topic=RMQ_SYS_TRANS_HALF_TOPIC, groupId=CID_RMQ_SYS_TRANS, requestOffset=0
+2024-04-12 16:56:37 WARN TransactionalMessageCheckService - No new message. GetMessageStatus=NO_MESSAGE_IN_QUEUE, topic=RMQ_SYS_TRANS_HALF_TOPIC, groupId=CID_RMQ_SYS_TRANS, requestOffset=0
+2024-04-12 16:56:37 WARN TransactionalMessageCheckService - No new message. GetMessageStatus=NO_MESSAGE_IN_QUEUE, topic=RMQ_SYS_TRANS_OP_HALF_TOPIC, groupId=CID_RMQ_SYS_TRANS, requestOffset=0
+2024-04-12 16:56:37 INFO TransactionalMessageCheckService - After check, MessageQueue [topic=RMQ_SYS_TRANS_HALF_TOPIC, brokerName=broker-a, queueId=0] opOffset=0 opOffsetDiff=0 msgOffset=0 msgOffsetDiff=0 msgTime=Fri Apr 12 16:56:37 CST 2024 msgTimeDelayInMs=0 putInQueueCount=0
+2024-04-12 16:56:37 INFO TransactionalMessageCheckService - End to check prepare message, consumed time:2
+2024-04-12 16:57:34 INFO TransactionalMessageCheckService - Begin to check prepare message, begin time:1712912254232
+2024-04-12 16:57:34 INFO TransactionalMessageCheckService - Before check, the queue=MessageQueue [topic=RMQ_SYS_TRANS_HALF_TOPIC, brokerName=broker-a, queueId=0] msgOffset=0 opOffset=0
+2024-04-12 16:57:34 WARN TransactionalMessageCheckService - No new message. GetMessageStatus=NO_MESSAGE_IN_QUEUE, topic=RMQ_SYS_TRANS_OP_HALF_TOPIC, groupId=CID_RMQ_SYS_TRANS, requestOffset=0
+2024-04-12 16:57:34 WARN TransactionalMessageCheckService - The miss op offset=0 in queue=MessageQueue [topic=RMQ_SYS_TRANS_OP_HALF_TOPIC, brokerName=broker-a, queueId=0] is NO_NEW_MSG, pullResult=PullResult [pullStatus=NO_NEW_MSG, nextBeginOffset=0, minOffset=0, maxOffset=0, msgFoundList=0]
+2024-04-12 16:57:34 WARN TransactionalMessageCheckService - No new message. GetMessageStatus=NO_MESSAGE_IN_QUEUE, topic=RMQ_SYS_TRANS_HALF_TOPIC, groupId=CID_RMQ_SYS_TRANS, requestOffset=0
+2024-04-12 16:57:34 WARN TransactionalMessageCheckService - No new message. GetMessageStatus=NO_MESSAGE_IN_QUEUE, topic=RMQ_SYS_TRANS_HALF_TOPIC, groupId=CID_RMQ_SYS_TRANS, requestOffset=0
+2024-04-12 16:57:34 WARN TransactionalMessageCheckService - No new message. GetMessageStatus=NO_MESSAGE_IN_QUEUE, topic=RMQ_SYS_TRANS_OP_HALF_TOPIC, groupId=CID_RMQ_SYS_TRANS, requestOffset=0
+2024-04-12 16:57:34 INFO TransactionalMessageCheckService - After check, MessageQueue [topic=RMQ_SYS_TRANS_HALF_TOPIC, brokerName=broker-a, queueId=0] opOffset=0 opOffsetDiff=0 msgOffset=0 msgOffsetDiff=0 msgTime=Fri Apr 12 16:57:34 CST 2024 msgTimeDelayInMs=0 putInQueueCount=0
+2024-04-12 16:57:34 INFO TransactionalMessageCheckService - End to check prepare message, consumed time:1
+2024-04-12 16:58:34 INFO TransactionalMessageCheckService - Begin to check prepare message, begin time:1712912314233
+2024-04-12 16:58:34 INFO TransactionalMessageCheckService - Before check, the queue=MessageQueue [topic=RMQ_SYS_TRANS_HALF_TOPIC, brokerName=broker-a, queueId=0] msgOffset=0 opOffset=0
+2024-04-12 16:58:34 WARN TransactionalMessageCheckService - No new message. GetMessageStatus=NO_MESSAGE_IN_QUEUE, topic=RMQ_SYS_TRANS_OP_HALF_TOPIC, groupId=CID_RMQ_SYS_TRANS, requestOffset=0
+2024-04-12 16:58:34 WARN TransactionalMessageCheckService - The miss op offset=0 in queue=MessageQueue [topic=RMQ_SYS_TRANS_OP_HALF_TOPIC, brokerName=broker-a, queueId=0] is NO_NEW_MSG, pullResult=PullResult [pullStatus=NO_NEW_MSG, nextBeginOffset=0, minOffset=0, maxOffset=0, msgFoundList=0]
+2024-04-12 16:58:34 WARN TransactionalMessageCheckService - No new message. GetMessageStatus=NO_MESSAGE_IN_QUEUE, topic=RMQ_SYS_TRANS_HALF_TOPIC, groupId=CID_RMQ_SYS_TRANS, requestOffset=0
+2024-04-12 16:58:34 WARN TransactionalMessageCheckService - No new message. GetMessageStatus=NO_MESSAGE_IN_QUEUE, topic=RMQ_SYS_TRANS_HALF_TOPIC, groupId=CID_RMQ_SYS_TRANS, requestOffset=0
+2024-04-12 16:58:34 WARN TransactionalMessageCheckService - No new message. GetMessageStatus=NO_MESSAGE_IN_QUEUE, topic=RMQ_SYS_TRANS_OP_HALF_TOPIC, groupId=CID_RMQ_SYS_TRANS, requestOffset=0
+2024-04-12 16:58:34 INFO TransactionalMessageCheckService - After check, MessageQueue [topic=RMQ_SYS_TRANS_HALF_TOPIC, brokerName=broker-a, queueId=0] opOffset=0 opOffsetDiff=0 msgOffset=0 msgOffsetDiff=0 msgTime=Fri Apr 12 16:58:34 CST 2024 msgTimeDelayInMs=0 putInQueueCount=0
+2024-04-12 16:58:34 INFO TransactionalMessageCheckService - End to check prepare message, consumed time:1
+2024-04-12 16:59:34 INFO TransactionalMessageCheckService - Begin to check prepare message, begin time:1712912374234
+2024-04-12 16:59:34 INFO TransactionalMessageCheckService - Before check, the queue=MessageQueue [topic=RMQ_SYS_TRANS_HALF_TOPIC, brokerName=broker-a, queueId=0] msgOffset=0 opOffset=0
+2024-04-12 16:59:34 WARN TransactionalMessageCheckService - No new message. GetMessageStatus=NO_MESSAGE_IN_QUEUE, topic=RMQ_SYS_TRANS_OP_HALF_TOPIC, groupId=CID_RMQ_SYS_TRANS, requestOffset=0
+2024-04-12 16:59:34 WARN TransactionalMessageCheckService - The miss op offset=0 in queue=MessageQueue [topic=RMQ_SYS_TRANS_OP_HALF_TOPIC, brokerName=broker-a, queueId=0] is NO_NEW_MSG, pullResult=PullResult [pullStatus=NO_NEW_MSG, nextBeginOffset=0, minOffset=0, maxOffset=0, msgFoundList=0]
+2024-04-12 16:59:34 WARN TransactionalMessageCheckService - No new message. GetMessageStatus=NO_MESSAGE_IN_QUEUE, topic=RMQ_SYS_TRANS_HALF_TOPIC, groupId=CID_RMQ_SYS_TRANS, requestOffset=0
+2024-04-12 16:59:34 WARN TransactionalMessageCheckService - No new message. GetMessageStatus=NO_MESSAGE_IN_QUEUE, topic=RMQ_SYS_TRANS_HALF_TOPIC, groupId=CID_RMQ_SYS_TRANS, requestOffset=0
+2024-04-12 16:59:34 WARN TransactionalMessageCheckService - No new message. GetMessageStatus=NO_MESSAGE_IN_QUEUE, topic=RMQ_SYS_TRANS_OP_HALF_TOPIC, groupId=CID_RMQ_SYS_TRANS, requestOffset=0
+2024-04-12 16:59:34 INFO TransactionalMessageCheckService - After check, MessageQueue [topic=RMQ_SYS_TRANS_HALF_TOPIC, brokerName=broker-a, queueId=0] opOffset=0 opOffsetDiff=0 msgOffset=0 msgOffsetDiff=0 msgTime=Fri Apr 12 16:59:34 CST 2024 msgTimeDelayInMs=0 putInQueueCount=0
+2024-04-12 16:59:34 INFO TransactionalMessageCheckService - End to check prepare message, consumed time:2
+2024-04-12 17:00:34 INFO TransactionalMessageCheckService - Begin to check prepare message, begin time:1712912434236
+2024-04-12 17:00:34 INFO TransactionalMessageCheckService - Before check, the queue=MessageQueue [topic=RMQ_SYS_TRANS_HALF_TOPIC, brokerName=broker-a, queueId=0] msgOffset=0 opOffset=0
+2024-04-12 17:00:34 WARN TransactionalMessageCheckService - No new message. GetMessageStatus=NO_MESSAGE_IN_QUEUE, topic=RMQ_SYS_TRANS_OP_HALF_TOPIC, groupId=CID_RMQ_SYS_TRANS, requestOffset=0
+2024-04-12 17:00:34 WARN TransactionalMessageCheckService - The miss op offset=0 in queue=MessageQueue [topic=RMQ_SYS_TRANS_OP_HALF_TOPIC, brokerName=broker-a, queueId=0] is NO_NEW_MSG, pullResult=PullResult [pullStatus=NO_NEW_MSG, nextBeginOffset=0, minOffset=0, maxOffset=0, msgFoundList=0]
+2024-04-12 17:00:34 WARN TransactionalMessageCheckService - No new message. GetMessageStatus=NO_MESSAGE_IN_QUEUE, topic=RMQ_SYS_TRANS_HALF_TOPIC, groupId=CID_RMQ_SYS_TRANS, requestOffset=0
+2024-04-12 17:00:34 WARN TransactionalMessageCheckService - No new message. GetMessageStatus=NO_MESSAGE_IN_QUEUE, topic=RMQ_SYS_TRANS_HALF_TOPIC, groupId=CID_RMQ_SYS_TRANS, requestOffset=0
+2024-04-12 17:00:34 WARN TransactionalMessageCheckService - No new message. GetMessageStatus=NO_MESSAGE_IN_QUEUE, topic=RMQ_SYS_TRANS_OP_HALF_TOPIC, groupId=CID_RMQ_SYS_TRANS, requestOffset=0
+2024-04-12 17:00:34 INFO TransactionalMessageCheckService - After check, MessageQueue [topic=RMQ_SYS_TRANS_HALF_TOPIC, brokerName=broker-a, queueId=0] opOffset=0 opOffsetDiff=0 msgOffset=0 msgOffsetDiff=0 msgTime=Fri Apr 12 17:00:34 CST 2024 msgTimeDelayInMs=0 putInQueueCount=0
+2024-04-12 17:00:34 INFO TransactionalMessageCheckService - End to check prepare message, consumed time:5
+2024-04-12 17:01:34 INFO TransactionalMessageCheckService - Begin to check prepare message, begin time:1712912494241
+2024-04-12 17:01:34 INFO TransactionalMessageCheckService - Before check, the queue=MessageQueue [topic=RMQ_SYS_TRANS_HALF_TOPIC, brokerName=broker-a, queueId=0] msgOffset=0 opOffset=0
+2024-04-12 17:01:34 WARN TransactionalMessageCheckService - No new message. GetMessageStatus=NO_MESSAGE_IN_QUEUE, topic=RMQ_SYS_TRANS_OP_HALF_TOPIC, groupId=CID_RMQ_SYS_TRANS, requestOffset=0
+2024-04-12 17:01:34 WARN TransactionalMessageCheckService - The miss op offset=0 in queue=MessageQueue [topic=RMQ_SYS_TRANS_OP_HALF_TOPIC, brokerName=broker-a, queueId=0] is NO_NEW_MSG, pullResult=PullResult [pullStatus=NO_NEW_MSG, nextBeginOffset=0, minOffset=0, maxOffset=0, msgFoundList=0]
+2024-04-12 17:01:34 WARN TransactionalMessageCheckService - No new message. GetMessageStatus=NO_MESSAGE_IN_QUEUE, topic=RMQ_SYS_TRANS_HALF_TOPIC, groupId=CID_RMQ_SYS_TRANS, requestOffset=0
+2024-04-12 17:01:34 WARN TransactionalMessageCheckService - No new message. GetMessageStatus=NO_MESSAGE_IN_QUEUE, topic=RMQ_SYS_TRANS_HALF_TOPIC, groupId=CID_RMQ_SYS_TRANS, requestOffset=0
+2024-04-12 17:01:34 WARN TransactionalMessageCheckService - No new message. GetMessageStatus=NO_MESSAGE_IN_QUEUE, topic=RMQ_SYS_TRANS_OP_HALF_TOPIC, groupId=CID_RMQ_SYS_TRANS, requestOffset=0
+2024-04-12 17:01:34 INFO TransactionalMessageCheckService - After check, MessageQueue [topic=RMQ_SYS_TRANS_HALF_TOPIC, brokerName=broker-a, queueId=0] opOffset=0 opOffsetDiff=0 msgOffset=0 msgOffsetDiff=0 msgTime=Fri Apr 12 17:01:34 CST 2024 msgTimeDelayInMs=0 putInQueueCount=0
+2024-04-12 17:01:34 INFO TransactionalMessageCheckService - End to check prepare message, consumed time:5
+2024-04-12 17:02:34 INFO TransactionalMessageCheckService - Begin to check prepare message, begin time:1712912554246
+2024-04-12 17:02:34 INFO TransactionalMessageCheckService - Before check, the queue=MessageQueue [topic=RMQ_SYS_TRANS_HALF_TOPIC, brokerName=broker-a, queueId=0] msgOffset=0 opOffset=0
+2024-04-12 17:02:34 WARN TransactionalMessageCheckService - No new message. GetMessageStatus=NO_MESSAGE_IN_QUEUE, topic=RMQ_SYS_TRANS_OP_HALF_TOPIC, groupId=CID_RMQ_SYS_TRANS, requestOffset=0
+2024-04-12 17:02:34 WARN TransactionalMessageCheckService - The miss op offset=0 in queue=MessageQueue [topic=RMQ_SYS_TRANS_OP_HALF_TOPIC, brokerName=broker-a, queueId=0] is NO_NEW_MSG, pullResult=PullResult [pullStatus=NO_NEW_MSG, nextBeginOffset=0, minOffset=0, maxOffset=0, msgFoundList=0]
+2024-04-12 17:02:34 WARN TransactionalMessageCheckService - No new message. GetMessageStatus=NO_MESSAGE_IN_QUEUE, topic=RMQ_SYS_TRANS_HALF_TOPIC, groupId=CID_RMQ_SYS_TRANS, requestOffset=0
+2024-04-12 17:02:34 WARN TransactionalMessageCheckService - No new message. GetMessageStatus=NO_MESSAGE_IN_QUEUE, topic=RMQ_SYS_TRANS_HALF_TOPIC, groupId=CID_RMQ_SYS_TRANS, requestOffset=0
+2024-04-12 17:02:34 WARN TransactionalMessageCheckService - No new message. GetMessageStatus=NO_MESSAGE_IN_QUEUE, topic=RMQ_SYS_TRANS_OP_HALF_TOPIC, groupId=CID_RMQ_SYS_TRANS, requestOffset=0
+2024-04-12 17:02:34 INFO TransactionalMessageCheckService - After check, MessageQueue [topic=RMQ_SYS_TRANS_HALF_TOPIC, brokerName=broker-a, queueId=0] opOffset=0 opOffsetDiff=0 msgOffset=0 msgOffsetDiff=0 msgTime=Fri Apr 12 17:02:34 CST 2024 msgTimeDelayInMs=0 putInQueueCount=0
+2024-04-12 17:02:34 INFO TransactionalMessageCheckService - End to check prepare message, consumed time:5
