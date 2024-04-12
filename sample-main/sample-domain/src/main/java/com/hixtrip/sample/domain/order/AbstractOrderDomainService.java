@@ -22,6 +22,12 @@ public abstract class AbstractOrderDomainService implements IOrderDomainService{
     @Autowired
     protected OrderRepository orderRepository;
 
+    /**
+     * 模板方法
+     * @param sampleCart
+     * @return
+     * @throws Exception
+     */
     @Override
     public CommandPay createOrder(SampleCart sampleCart) throws Exception {
         // 1. 查询当前用户是否存在掉单和未支付订单
@@ -42,7 +48,7 @@ public abstract class AbstractOrderDomainService implements IOrderDomainService{
         }
 
         // 2. 查询商品 & 聚合订单
-        Sample sample = orderRepository.queryProductByProductId(sampleCart.getSkuId());
+        Sample sample = orderRepository.queryProductByProductId(sampleCart);
         Order orderEntity = Order.builder()
                 .skuId(String.valueOf(sample.getId()))
                 .productName(sample.getName())

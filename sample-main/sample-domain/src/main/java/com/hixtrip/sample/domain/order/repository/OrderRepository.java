@@ -22,10 +22,10 @@ public interface OrderRepository {
     /**
      * 模拟查询商品信息
      *
-     * @param productId 商品ID
+     * @param sampleCart 购物车
      * @return 商品实体对象
      */
-    Sample queryProductByProductId(String productId);
+    Sample queryProductByProductId(SampleCart sampleCart);
 
     /**
      * 保存订单对象

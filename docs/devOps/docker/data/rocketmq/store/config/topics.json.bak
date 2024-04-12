@@ -1,10 +1,20 @@
 {
 	"dataVersion":{
-		"counter":7,
+		"counter":30,
 		"stateVersion":0,
-		"timestamp":1712879165776
+		"timestamp":1712901516678
 	},
 	"topicConfigTable":{
+		"%RETRY%xfg-group":{
+			"attributes":{},
+			"order":false,
+			"perm":6,
+			"readQueueNums":1,
+			"topicFilterType":"SINGLE_TAG",
+			"topicName":"%RETRY%xfg-group",
+			"topicSysFlag":0,
+			"writeQueueNums":1
+		},
 		"SCHEDULE_TOPIC_XXXX":{
 			"attributes":{},
 			"order":false,
@@ -85,6 +95,16 @@
 			"topicSysFlag":0,
 			"writeQueueNums":1
 		},
+		"RMQ_SYS_TRACE_TOPIC":{
+			"attributes":{},
+			"order":false,
+			"perm":6,
+			"readQueueNums":4,
+			"topicFilterType":"SINGLE_TAG",
+			"topicName":"RMQ_SYS_TRACE_TOPIC",
+			"topicSysFlag":0,
+			"writeQueueNums":4
+		},
 		"RMQ_SYS_TRANS_OP_HALF_TOPIC":{
 			"attributes":{},
 			"order":false,
@@ -94,16 +114,6 @@
 			"topicName":"RMQ_SYS_TRANS_OP_HALF_TOPIC",
 			"topicSysFlag":0,
 			"writeQueueNums":1
-		},
-		"PERSON_ADD":{
-			"attributes":{},
-			"order":false,
-			"perm":6,
-			"readQueueNums":16,
-			"topicFilterType":"SINGLE_TAG",
-			"topicName":"PERSON_ADD",
-			"topicSysFlag":0,
-			"writeQueueNums":16
 		},
 		"TBW102":{
 			"attributes":{},

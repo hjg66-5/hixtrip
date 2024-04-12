@@ -57,5 +57,5 @@ services:
     ports:
       - 8080:8080
     environment:
-      - JAVA_OPTS=-Drocketmq.namesrv.addr=192.168.1.4:9009
+      - JAVA_OPTS=-Drocketmq.namesrv.addr=localhost:9009
     restart: on-failure

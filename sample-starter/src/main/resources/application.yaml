@@ -10,14 +10,11 @@ server:
 spring:
   application:
     name: sample-console
-
-
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:13306/zInterView?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&useSSL=false&zeroDateTimeBehavior=convertToNull&serverTimezone=Asia/Shanghai
     username: root
     password: 123456
-
   data:
     redis:
       database: 0
@@ -31,6 +28,28 @@ spring:
         max-wait: -1
         min-idle: 0
 
+# RocketMQ 配置
+rocketmq:
+  name-server: 127.0.0.1:9876
+  consumer:
+    group: xfg-group
+    # 一次拉取消息最大值，注意是拉取消息的最大值而非消费最大值
+    pull-batch-size: 10
+  producer:
+    # 发送同一类消息的设置为同一个group，保证唯一
+    group: xfg-group
+    # 发送消息超时时间，默认3000
+    sendMessageTimeout: 10000
+    # 发送消息失败重试次数，默认2
+    retryTimesWhenSendFailed: 2
+    # 异步消息重试此处，默认2
+    retryTimesWhenSendAsyncFailed: 2
+    # 消息最大长度，默认1024 * 1024 * 4(默认4M)
+    maxMessageSize: 4096
+    # 压缩消息阈值，默认4k(1024 * 4)
+    compressMessageBodyThreshold: 4096
+    # 是否在内部发送失败时重试另一个broker，默认false
+    retryNextServer: false
 
 mybatis-plus:
   mapper-locations: classpath:/mapper/*Mapper.xml
@@ -46,33 +65,9 @@ alipay:
   app_id: 9021000136610214
   merchant_private_key: MIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCkdWTTQWYOtZ5URuZrZ3+y6D+lfF7jrci9IMS4+Ol7ern46tuBuVKJP914O15agsucM52yL2TJ4DelKs/1m4tNbzSowzXHOdjaLVwr+jeGL4EBF0ziK10ZC7E0l+55t66wOr3//O3tQJ3u5dt7SNbGtonUTIGArbUkvkf2ov1hbFBX+6Spg/4p3H0ZJm8+6OaZksiniuqZAlJCbFjjbgiUnN7GnHsTv+Yh/r++8h1Y9TV2uIhiBBXd8z1wYE0m1OhSAWJel3OBqLAbPdVykI/nKkRXVzbM5vIgtzScUMrsNfhDjqTneIYJJK1Pg4daDCyvZ7xWCWwGGnNSvx/8JSmRAgMBAAECggEAA4XwTwZLpW0Go0+RiCODfNW051quvbnvXv3guQW8GsUaTtbZNQI/Xmlb2UOMVewPaJ1Cd5rEUf7XslYkdmKKrXIAcs0bzdTTbHkkTFzj66AA54EUSJQdPngdp77JgRoKSAQ6Jc3JWxfTSlbqSM3arA8lDMNG0vblto/NAt+jBf8/M3qXtLUDVOPh+r8morLL8AulYASwS2IIRirPHJXL1i1L/4t7AQ2GmzyusxpGMzgRtNV2GTO6oAXhtx/iMQtEkM/g8vSOem8kh6PJ8xyXES+Fho8J0B3sKh5GVq4uTffYVQlELaPn8QSiqauiCNaEcITJeNsPgeJCVCFE6/OxMQKBgQDixqGNccu4Z/6LGbHkBMfnSBaXrQ53EhF1ljF9C+B09DS3SGk9HWHX6lpwhUWlgJMmydzTa9/Q9PHwEw2E8JwCvV52ALGu3CjJFmblUpQunmsIYwpOJvdFvK1cniJcMvUJOSvbdgLnf0p6iaXpr2seRzWy6damuMflL78RQA800wKBgQC5pue7cqpoazfcXhBfIRHuBnBDRfYx338lkiQEEQF3L+GO6AzZ8eUL4+WY7aTv6jPwm4F2e0dPKo2/sC1Yc/NQx5wJwNBbE1XKES4rZv+hJIl/Z28exhNcJ8mT/Vt46ETj8JE+VnVUtMdLJnMvcxkqTEG4KnXN4clmUQWzWA25iwKBgApQqKaLZ43SxSREne/WO9WMVOK/T2ohG0Qy+btLYAFR3lf75jWOcZXlpgl6NmnJyGe6RN4lCQAzNBIMe8/xNdd2D6bkbzCZ+Qz0hOencvAP6qRuBNj7MsIsS+JrmvqAot6xiAoqewVWp+ec/Tv8661r5chmlInu28DUBCfftxFbAoGAIy+b+e3omDPB+ZUmWzFEWa2Et2taFue6DF/fTZn/ghxkDpayYNg0xgUibdKUkRf9UhvW9KK2yC1TgkIcxgfr1KKQU1Tk6G4Is2yAKJ+z0VHAcZIkAFwgLTYpQVAidw7mh6D/liYCxNQidX7LE/Inkdm0FviNLUEez7KJdw04RLMCgYBDqAJDn356s9++/tbqpt2dGzzMhxgX6xttJiNcUkez28i9QHc5/nL+k3KJdHjRAXubQO1rDkcYjm6LWqZ0bXjxZg+I/jmyMXCTViPUDXxxCBa9fSJtPZp6ajV86A67X/ENHSVhwtEzT2pz1uMEQoTqQfOcT3L4sM8a7YzgS6hBvg==
   alipay_public_key: MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAoTycd1VVXtCw79V8B3eYlmsZRsHng9S14DpmLgdI0w1Z+06UAKsQ5S7eU4nZ9MZCiuwGQw+yoIjrAfwjGa9IB4uE/EeKmRYRUeKLc29OClv6fbsMUOAC25XG6vG+E/P7sjpE8TbtnGHEvsXyiwk6ZuuXG9lKT0S/WSS3Sxe6JLJs9WGWAH7HY6wlyc1HYQqCwrJSyoh7O9cQf5DVo5ct8iViwVuW+cyPT8uoYOsr6b5QeAvmVOfieEhnGYNin34gaB6akCnqspcm2Zf+4bKlEx1npxyc1TGPR9TiKAE9iVpMN/dXvvbD5Dbm4BTD0oulNZaQVuscNQ85wOl2UuMDTQIDAQAB
-  notify_url: http://itchyz.natappfree.cc/command/order/pay/callback
-  return_url: https://www.baidu.com
+  notify_url: http://29mdrc.natappfree.cc/command/order/pay/callback
+  return_url:
   gatewayUrl: https://openapi-sandbox.dl.alipaydev.com/gateway.do
-
-# RocketMQ 配置
-rocketmq:
-  name-server: 127.0.0.1:9876
-  consumer:
-    group: hjg-group
-    # 一次拉取消息最大值，注意是拉取消息的最大值而非消费最大值
-    pull-batch-size: 10
-  producer:
-    # 发送同一类消息的设置为同一个group，保证唯一
-    group: hjg-group
-    # 发送消息超时时间，默认3000
-    sendMessageTimeout: 10000
-    # 发送消息失败重试次数，默认2
-    retryTimesWhenSendFailed: 2
-    # 异步消息重试此处，默认2
-    retryTimesWhenSendAsyncFailed: 2
-    # 消息最大长度，默认1024 * 1024 * 4(默认4M)
-    maxMessageSize: 4096
-    # 压缩消息阈值，默认4k(1024 * 4)
-    compressMessageBodyThreshold: 4096
-    # 是否在内部发送失败时重试另一个broker，默认false
-    retryNextServer: false
-
 
 # 日志
 logging:

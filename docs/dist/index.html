@@ -64,22 +64,44 @@
     <div class="product-info">
         <h2>厦门畅行文旅-厦门大学定制游</h2>
         <img src="https://img.bosszhipin.com/beijin/upload/com/workfeel/20231101/7bf6f160950405e998d3849d90b3a3dc603d542bcb5183944d4d59741e2ee7f55820f0a1b63e23ae.png.webp?x-oss-process=image/resize,w_120,limit_0">
-        <p>价格：¥168</p>
+        <h2>小米SU7全程护送</h2>
+        <p>价格：¥1688</p>
+        <div>客户：<input type="text" id="myInput1" style="width: 50px" value="hjg"> 买了，<input  style="width: 50px" type="text" id="myInput2" value="2"> 个
+            <button id="increaseBtn">增加</button>
+            <button id="decreaseBtn">减少</button>
+        </div>
     </div>
     <button id="orderButton" class="order-button">立即下单「支付宝沙箱支付」</button>
-    <span class="account-info">测试账号：kvhmoj3832@sandbox.com 密码：111111 支付：111111</span>
 </div>
 
 <script>
 document.getElementById('orderButton').addEventListener('click', function() {
-    var userId = "hjg";
-    var productId = "100010090091";
+
+    var input1 = document.getElementById("myInput1");
+    var userId = input1.value;
+    var input2 = document.getElementById("myInput2");
+    // var increaseBtn = document.getElementById("increaseBtn");
+    // var decreaseBtn = document.getElementById("decreaseBtn");
+    // increaseBtn.addEventListener("click", function() {
+    //     input2.value++
+    //     // input2.setAttribute("value", input2.value);
+    // });
+    //
+    // decreaseBtn.addEventListener("click", function() {
+    //     if (input2.value > 0) {
+    //         input2.value--
+    //         // input2.setAttribute("value", input2.value);
+    //     }
+    // });
+    var amount = input2.value;
+    var productId = "1";
     var url = 'http://127.0.0.1:19095/command/order/create'
     const postData = {
         skuId:productId,
-        amount:1,
-        userId:userId
+        amount:amount,
+        userId:1
     };
+    // console.log(postData)
     fetch(url, {
         method: 'POST',
         headers: {

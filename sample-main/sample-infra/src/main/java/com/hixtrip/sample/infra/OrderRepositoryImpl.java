@@ -44,13 +44,13 @@ public class OrderRepositoryImpl implements OrderRepository {
     }
 
     @Override
-    public Sample queryProductByProductId(String productId) {
+    public Sample queryProductByProductId(SampleCart sampleCart) {
         // 实际场景要从从数据库查询
         return Sample.builder()
-                .id(Long.valueOf(productId))
-                .name("小米VIP-SUV")
+                .id(Long.valueOf(sampleCart.getSkuId()))
+                .name("小米VIP-SU7-文旅")
                 .desc("666")
-                .price(new BigDecimal("21500"))
+                .price(new BigDecimal("1688"))
                 .build();
     }
 
@@ -74,7 +74,12 @@ public class OrderRepositoryImpl implements OrderRepository {
 
     @Override
     public void updateOrderPayInfo(CommandPay payOrderEntity) {
-
+        PayOrderDo order = new PayOrderDo();
+        order.setUserId(payOrderEntity.getUserId());
+        order.setOrderId(payOrderEntity.getOrderId());
+        order.setPayUrl(payOrderEntity.getPayUrl());
+        order.setStatus(payOrderEntity.getPayStatus().getCode());
+        payOrderMapper.updateOrderPayInfo(order);
     }
 
     @Override

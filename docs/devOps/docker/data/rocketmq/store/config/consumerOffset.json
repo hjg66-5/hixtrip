@@ -1,9 +1,16 @@
 {
 	"dataVersion":{
-		"counter":0,
+		"counter":11,
 		"stateVersion":0,
-		"timestamp":1712843686508
+		"timestamp":1712906160879
 	},
-	"groupTopicMap":{},
-	"offsetTable":{}
+	"groupTopicMap":{
+		"xfg-group":["%RETRY%xfg-group","xfg-mq"]
+	},
+	"offsetTable":{
+		"%RETRY%xfg-group@xfg-group":{0:0
+		},
+		"xfg-mq@xfg-group":{0:78,1:78,2:74,3:74
+		}
+	}
 }
