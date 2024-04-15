@@ -6,6 +6,7 @@ DDD真的是好用！！！！爱了爱了。实现了初级&#x2714;，支付流
 
 【点击我的主页可以B站、CSDN找到我】
 
+![img.png](docs/mdImages/img2.png)
 
 # hixtrip
 
